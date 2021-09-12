@@ -1,23 +1,25 @@
 {
-  "name": "portfolio-page",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Senimtra/Portfolio-Page.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Senimtra/Portfolio-Page/issues"
-  },
-  "homepage": "https://github.com/Senimtra/Portfolio-Page#readme",
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "express": "^4.17.1"
-  }
+   "name": "portfolio-page",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon app.js -e js,hbs,scss"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Senimtra/Portfolio-Page.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Senimtra/Portfolio-Page/issues"
+   },
+   "homepage": "https://github.com/Senimtra/Portfolio-Page#readme",
+   "dependencies": {
+      "chalk": "^4.1.2",
+      "express": "^4.17.1",
+      "node-sass-middleware": "^0.11.0"
+   }
 }

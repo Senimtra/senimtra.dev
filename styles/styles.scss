@@ -7,14 +7,14 @@
 html,
 body {
 	margin: 0;
-	background-color: #272727;
 	height: 100%;
 }
 
-#home-page {
+section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	background-color: #272727;
 	height: 100%;
 }

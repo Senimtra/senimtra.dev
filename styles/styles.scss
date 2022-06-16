@@ -9,6 +9,11 @@ body {
 	margin: 0;
 	height: 100%;
 	overflow: hidden;
+	background-image: url(../images/background.jpg);
+	background-color: black !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;
 }
 
 section {
@@ -16,6 +21,5 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	background-color: #272727;
 	height: 100%;
 }

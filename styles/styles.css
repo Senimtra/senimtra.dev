@@ -10,6 +10,11 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden;
+  background-image: url(../images/background.jpg);
+  background-color: black !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 section {
@@ -26,7 +31,6 @@ section {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background-color: #272727;
   height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

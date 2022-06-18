@@ -1,34 +1,3 @@
-// ######################
-// ##  General styles  ##
-// ######################
-
+// ### Import scss files ###
+@import 'general';
 @import 'navbar';
-
-* {
-	box-sizing: border-box;
-}
-
-p {
-	margin: 0.5em 0;
-}
-
-html,
-body {
-	margin: 0;
-	height: 100%;
-	overflow: hidden;
-	background-image: url(../images/background.jpg);
-	background-color: black !important;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top right;
-}
-
-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	overflow: auto;
-	height: 100%;
-}

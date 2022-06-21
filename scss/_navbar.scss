@@ -10,6 +10,16 @@
 	white-space: nowrap;
 }
 
+.nav-home {
+	padding-left: 0 !important;
+}
+
+#icons {
+	i:not(:first-child) {
+		margin-left: 2em;
+	}
+}
+
 .nav-top {
 	border: 5px solid red;
 	position: absolute;
@@ -18,6 +28,9 @@
 	top: 0%;
 	justify-content: space-between;
 	#nav-message {
+		display: none;
+	}
+	#icons {
 		display: none;
 	}
 }
@@ -29,4 +42,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	#nav-name {
+		margin-bottom: 1em;
+	}
+	.contact {
+		display: none;
+	}
 }

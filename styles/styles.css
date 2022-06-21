@@ -37,6 +37,14 @@ section {
   white-space: nowrap;
 }
 
+.nav-home {
+  padding-left: 0 !important;
+}
+
+#icons i:not(:first-child) {
+  margin-left: 2em;
+}
+
 .nav-top {
   border: 5px solid red;
   position: absolute;
@@ -48,6 +56,9 @@ section {
 .nav-top #nav-message {
   display: none;
 }
+.nav-top #icons {
+  display: none;
+}
 
 .nav-center {
   border: 5px solid green;
@@ -56,4 +67,10 @@ section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.nav-center #nav-name {
+  margin-bottom: 1em;
+}
+.nav-center .contact {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */

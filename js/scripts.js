@@ -3,14 +3,18 @@
 // ##########################
 
 window.onload = () => {
-	const navCenter = document.querySelector('.nav-center');
-	const navHeight = navCenter.clientHeight;
-	const winHeight = window.screen.height;
-	const navPosY = `${(winHeight - navHeight) / 2}px`;
-	navCenter.style.top = navPosY;
+	window.onresize();
 };
 
-window.onresize = () => window.onload();
+window.onresize = () => {
+	const navCenter = document.querySelector('.nav-center');
+	if (navCenter) {
+		const navHeight = navCenter.clientHeight;
+		const winHeight = window.screen.height;
+		const navPosY = `${(winHeight - navHeight) / 2}px`;
+		navCenter.style.top = navPosY;
+	}
+};
 
 // ### Event listeners ###
 document.querySelector('.nav-home').addEventListener('click', () => navHome());
@@ -24,6 +28,7 @@ const navHome = () => {
 	if (navbar.classList.contains('nav-top')) {
 		navbar.classList.remove('nav-top');
 		navbar.classList.add('nav-center');
+		window.onresize();
 	}
 };
 
@@ -33,5 +38,6 @@ const navGeneral = () => {
 	if (navbar.classList.contains('nav-center')) {
 		navbar.classList.remove('nav-center');
 		navbar.classList.add('nav-top');
+		navbar.style.top = '0';
 	}
 };

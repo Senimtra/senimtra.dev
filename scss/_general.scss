@@ -16,11 +16,11 @@ body {
 	height: 100%;
 	overflow: hidden;
 	background-image: url(../images/background.jpg);
-	background-color: black !important;
+	background-color: $black !important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top right;
-	font-family: 'Poppins', sans-serif;
+	font-family: $font-secondary !important;
 }
 
 section {

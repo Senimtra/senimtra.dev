@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -13,11 +15,11 @@ body {
   height: 100%;
   overflow: hidden;
   background-image: url(../images/background.jpg);
-  background-color: black !important;
+  background-color: #000000 !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif !important;
 }
 
 section {
@@ -35,6 +37,9 @@ section {
 
 #nav-name {
   white-space: nowrap;
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 .nav-home {
@@ -46,11 +51,10 @@ section {
 }
 
 .nav-top {
-  border: 5px solid red;
+  border: 5px solid beige !important;
   position: absolute;
   width: 100%;
   height: 5em;
-  top: 0%;
   justify-content: space-between;
 }
 .nav-top #nav-message {
@@ -61,7 +65,7 @@ section {
 }
 
 .nav-center {
-  border: 5px solid green;
+  border: 5px solid blue !important;
   position: absolute;
   display: flex;
   flex-direction: column;

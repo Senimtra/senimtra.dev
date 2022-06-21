@@ -2,6 +2,16 @@
 // ##  Navbar positioning  ##
 // ##########################
 
+window.onload = () => {
+	const navCenter = document.querySelector('.nav-center');
+	const navHeight = navCenter.clientHeight;
+	const winHeight = window.screen.height;
+	const navPosY = `${(winHeight - navHeight) / 2}px`;
+	navCenter.style.top = navPosY;
+};
+
+window.onresize = () => window.onload();
+
 // ### Event listeners ###
 document.querySelector('.nav-home').addEventListener('click', () => navHome());
 document

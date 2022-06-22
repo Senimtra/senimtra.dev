@@ -6,47 +6,83 @@
 	color: white !important;
 }
 
-#nav-name {
-	white-space: nowrap;
+#nav-name-long,
+#nav-name-short {
 	font-family: $font-primary;
-	font-size: 3em;
+	font-size: 2.8rem;
 	font-weight: 700;
+}
+
+#nav-name-long {
+	white-space: nowrap;
+}
+
+#nav-message {
+	font-size: 1.8rem;
+	color: $grey !important;
+	font-weight: lighter;
+	div {
+		color: $white;
+		display: inline;
+		text-decoration: underline;
+		text-decoration-color: $blue;
+		text-underline-offset: 0.3rem;
+	}
+	margin: 0.7rem 0 1.4rem !important;
+}
+
+#nav-menu a {
+	font-size: 1.2rem;
 }
 
 .nav-home {
 	padding-left: 0 !important;
 }
 
+.nav-general {
+	margin-left: 1.2rem !important;
+}
+
 #icons {
-	i:not(:first-child) {
-		margin-left: 2em;
+	i {
+		margin-left: 2rem !important;
 	}
+	i:first-child {
+		margin-left: 1rem !important;
+	}
+	margin-top: 2.5rem !important;
+	font-size: 1.7rem;
 }
 
 .nav-top {
-	border: 5px solid beige !important;
+	background-color: $dark-opa !important;
 	position: absolute;
 	width: 100%;
-	height: 5em;
+	height: 5rem;
 	justify-content: space-between;
 	#nav-message {
 		display: none;
 	}
-	#icons {
+	#icons,
+	#nav-name-long {
 		display: none;
+	}
+	#nav-menu {
+		margin-right: 5rem !important;
+	}
+	#nav-name-short {
+		margin-left: 5rem !important;
+		font-size: 2.5rem;
 	}
 }
 
 .nav-center {
-	border: 5px solid blue !important;
 	position: absolute;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	#nav-name {
-		margin-bottom: 1em;
-	}
-	.contact {
+	.contact,
+	#nav-name-short {
 		display: none;
 	}
 }

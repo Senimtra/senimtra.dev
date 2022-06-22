@@ -2,8 +2,6 @@
 // ##  Navbar positioning  ##
 // ##########################
 
-window.onload = () => navPosition();
-
 window.onresize = () => {
 	// ### Onresize performance timeout ###
 	clearTimeout(window.resizeTimeout);
@@ -18,22 +16,6 @@ document
 
 const navbarElement = document.querySelector('.navbar');
 const navCenterElement = document.querySelector('.nav-center');
-
-// ### Link home nav style (center) ###
-const navHome = () => {
-	if (navbarElement.classList.contains('nav-top')) {
-		navbarElement.classList.replace('nav-top', 'nav-center');
-		navPosition();
-	}
-};
-
-// ### Link general nav style (top) ###
-const navGeneral = () => {
-	if (navbarElement.classList.contains('nav-center')) {
-		navbarElement.classList.replace('nav-center', 'nav-top');
-		navbarElement.style.top = '0';
-	}
-};
 
 const navPosition = () => {
 	const winWidth = window.innerWidth;
@@ -51,5 +33,23 @@ const navPosition = () => {
 		const winHeight = window.innerHeight;
 		const navPosY = `${(winHeight - navHeight) / 2}px`;
 		navCenterElement.style.top = (winHeight > navHeight && navPosY) || '0';
+	}
+};
+
+navPosition();
+
+// ### Link home nav style (center) ###
+const navHome = () => {
+	if (navbarElement.classList.contains('nav-top')) {
+		navbarElement.classList.replace('nav-top', 'nav-center');
+		navPosition();
+	}
+};
+
+// ### Link general nav style (top) ###
+const navGeneral = () => {
+	if (navbarElement.classList.contains('nav-center')) {
+		navbarElement.classList.replace('nav-center', 'nav-top');
+		navbarElement.style.top = '0';
 	}
 };

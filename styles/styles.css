@@ -37,9 +37,6 @@ section {
   font-family: "Lato", sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
-}
-
-#nav-name-long {
   white-space: nowrap;
 }
 
@@ -59,7 +56,10 @@ section {
 }
 
 #nav-menu a {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+#nav-menu ul {
+  margin: 0 !important;
 }
 
 .nav-home {
@@ -112,4 +112,28 @@ section {
 .nav-center .contact,
 .nav-center #nav-name-short {
   display: none;
+}
+
+@media (max-width: 991px) {
+  .nav-center {
+    align-items: center !important;
+  }
+
+  #nav-name-long {
+    font-size: 2.3rem;
+    white-space: normal !important;
+  }
+
+  #nav-message {
+    font-size: 1.3rem;
+    text-align: center;
+    white-space: normal !important;
+  }
+
+  #nav-menu {
+    border: 1px solid red;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+  }
 }/*# sourceMappingURL=styles.css.map */

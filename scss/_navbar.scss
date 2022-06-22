@@ -11,9 +11,6 @@
 	font-family: $font-primary;
 	font-size: 2.8rem;
 	font-weight: 700;
-}
-
-#nav-name-long {
 	white-space: nowrap;
 }
 
@@ -31,8 +28,13 @@
 	margin: 0.7rem 0 1.4rem !important;
 }
 
-#nav-menu a {
-	font-size: 1.2rem;
+#nav-menu {
+	a {
+		font-size: 1.3rem;
+	}
+	ul {
+		margin: 0 !important;
+	}
 }
 
 .nav-home {
@@ -84,5 +86,26 @@
 	.contact,
 	#nav-name-short {
 		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-center {
+		align-items: center !important;
+	}
+	#nav-name-long {
+		font-size: 2.3rem;
+		white-space: normal !important;
+	}
+	#nav-message {
+		font-size: 1.3rem;
+		text-align: center;
+		white-space: normal !important;
+	}
+	#nav-menu {
+		border: 1px solid red;
+		position: fixed !important;
+		top: 0 !important;
+		right: 0 !important;
 	}
 }

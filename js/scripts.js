@@ -8,6 +8,17 @@ window.onload = () => {
 
 window.onresize = () => {
 	const navCenter = document.querySelector('.nav-center');
+	const winWidth = window.innerWidth;
+	// ### Navbar horizontal positioning ###
+	if (navCenter && winWidth < 992) {
+		const navWidth = navCenter.clientWidth;
+		const navPosX = `${(winWidth - navWidth) / 2}px`;
+		navCenter.style.left = (winWidth > navWidth && navPosX) || '0';
+	} else {
+		console.log(winWidth, winWidth / 100);
+		navCenter.style.left = `${(winWidth / 100) * 15}px`;
+	}
+	// ### Navbar vertical positioning ###
 	if (navCenter) {
 		const navHeight = navCenter.clientHeight;
 		const winHeight = window.innerHeight;

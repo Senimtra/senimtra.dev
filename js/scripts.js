@@ -10,9 +10,9 @@ window.onresize = () => {
 	const navCenter = document.querySelector('.nav-center');
 	if (navCenter) {
 		const navHeight = navCenter.clientHeight;
-		const winHeight = window.screen.height;
+		const winHeight = window.innerHeight;
 		const navPosY = `${(winHeight - navHeight) / 2}px`;
-		navCenter.style.top = navPosY;
+		navCenter.style.top = (winHeight > navHeight && navPosY) || '0';
 	}
 };
 

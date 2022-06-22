@@ -3,10 +3,18 @@
 // ##########################
 
 window.onload = () => {
-	window.onresize();
+	navPosition();
 };
 
 window.onresize = () => {
+	// ### Onresize performance timeout ###
+	clearTimeout(window.resizeTimeout);
+	window.resizeTimeout = setTimeout(() => {
+		navPosition();
+	}, 100);
+};
+
+const navPosition = () => {
 	const navCenter = document.querySelector('.nav-center');
 	const winWidth = window.innerWidth;
 	// ### Navbar horizontal positioning ###
@@ -15,7 +23,6 @@ window.onresize = () => {
 		const navPosX = `${(winWidth - navWidth) / 2}px`;
 		navCenter.style.left = (winWidth > navWidth && navPosX) || '0';
 	} else {
-		console.log(winWidth, winWidth / 100);
 		navCenter.style.left = `${(winWidth / 100) * 15}px`;
 	}
 	// ### Navbar vertical positioning ###

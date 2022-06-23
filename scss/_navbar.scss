@@ -104,10 +104,44 @@
 		white-space: normal !important;
 	}
 	#nav-menu {
-		border: 1px solid red;
 		position: fixed !important;
 		top: 0 !important;
 		right: 0 !important;
+		width: 100%;
+		text-align: left;
+		.show {
+			width: 100%;
+			background-color: $dark-opa;
+		}
+	}
+	.nav-link {
+		margin-left: 2rem !important;
+	}
+	.navbar-toggler {
+		width: 100%;
+		text-align: right;
+		background-color: $dark-opa;
+		padding: 1rem;
+	}
+
+	.navbar-collapse {
+		background: $dark-opa;
+		padding-bottom: 2rem;
+	}
+
+	.navbar-toggler:focus,
+	.navbar-toggler:active,
+	.navbar-toggler-icon:focus {
+		outline: none;
+		box-shadow: none;
+	}
+
+	.navbar-toggler > .close {
+		display: inline;
+	}
+
+	.navbar-toggler-icon .fas {
+		font-size: 30px;
 	}
 	#icons {
 		i:first-child {

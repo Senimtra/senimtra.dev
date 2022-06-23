@@ -132,10 +132,46 @@ section {
   }
 
   #nav-menu {
-    border: 1px solid red;
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
+    width: 100%;
+    text-align: left;
+  }
+  #nav-menu .show {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6274509804);
+  }
+
+  .nav-link {
+    margin-left: 2rem !important;
+  }
+
+  .navbar-toggler {
+    width: 100%;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.6274509804);
+    padding: 1rem;
+  }
+
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.6274509804);
+    padding-bottom: 2rem;
+  }
+
+  .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-toggler > .close {
+    display: inline;
+  }
+
+  .navbar-toggler-icon .fas {
+    font-size: 30px;
   }
 
   #icons {

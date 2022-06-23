@@ -22,18 +22,21 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   overflow: auto;
   height: 100%;
+  padding-top: 7rem !important;
 }
 
-.navbar * {
-  color: white !important;
+.section-container {
+  background-color: rgba(0, 0, 0, 0.6274509804);
+  color: #ffffff;
 }
 
 #nav-name-long,
 #nav-name-short {
+  color: #ffffff !important;
   font-family: "Lato", sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
@@ -47,7 +50,7 @@ section {
   margin: 0.7rem 0 1.4rem !important;
 }
 #nav-message div {
-  color: #ffffff;
+  color: #ffffff !important;
   display: inline;
   text-decoration: underline;
   -webkit-text-decoration-color: #4d4dd6;
@@ -57,6 +60,7 @@ section {
 
 #nav-menu a {
   font-size: 1.3rem;
+  color: #ffffff !important;
 }
 #nav-menu ul {
   margin: 0 !important;
@@ -76,6 +80,7 @@ section {
 }
 #icons i {
   margin-left: 2rem !important;
+  color: #ffffff !important;
 }
 #icons i:first-child {
   margin-left: 1rem !important;
@@ -200,37 +205,43 @@ section {
   }
 }
 @media (min-width: 576px) {
-  .nav-top .nav-container {
+  .nav-top .nav-container,
+.section-container {
     border-color: purple;
     width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .nav-top .nav-container {
+  .nav-top .nav-container,
+.section-container {
     border-color: beige;
     width: 720px;
   }
 }
 @media (min-width: 992px) {
-  .nav-top .nav-container {
+  .nav-top .nav-container,
+.section-container {
     border-color: blue;
     width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  .nav-top .nav-container {
+  .nav-top .nav-container,
+.section-container {
     border-color: green;
     width: 1140px;
   }
 }
 @media (min-width: 1440px) {
-  .nav-top .nav-container {
+  .nav-top .nav-container,
+.section-container {
     border-color: red;
     width: 1380px;
   }
 }
 @media (min-width: 1600px) {
-  .nav-top .nav-container {
+  .nav-top .nav-container,
+.section-container {
     border-color: yellow;
     width: 1560px;
   }

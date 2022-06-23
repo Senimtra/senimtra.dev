@@ -23,8 +23,14 @@ body {
 section {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	justify-content: flex-start;
+	align-items: center;
 	overflow: auto;
 	height: 100%;
+	padding-top: 7rem !important;
+}
+
+.section-container {
+	background-color: $dark-opa;
+	color: $white;
 }

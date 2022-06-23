@@ -2,12 +2,9 @@
 // ##  Navbar styles  ##
 // #####################
 
-.navbar * {
-	color: white !important;
-}
-
 #nav-name-long,
 #nav-name-short {
+	color: $white !important;
 	font-family: $font-primary;
 	font-size: 2.8rem;
 	font-weight: 700;
@@ -19,7 +16,7 @@
 	color: $grey !important;
 	font-weight: lighter;
 	div {
-		color: $white;
+		color: $white !important;
 		display: inline;
 		text-decoration: underline;
 		text-decoration-color: $blue;
@@ -31,6 +28,7 @@
 #nav-menu {
 	a {
 		font-size: 1.3rem;
+		color: $white !important;
 	}
 	ul {
 		margin: 0 !important;
@@ -48,6 +46,7 @@
 #icons {
 	i {
 		margin-left: 2rem !important;
+		color: $white !important;
 	}
 	i:first-child {
 		margin-left: 1rem !important;
@@ -183,31 +182,30 @@
 // ##  Media queries (content sections)  ##
 // ########################################
 
-.nav-top {
-	.nav-container {
-		@media (min-width: 576px) {
-			border-color: purple;
-			width: 540px;
-		}
-		@media (min-width: 768px) {
-			border-color: beige;
-			width: 720px;
-		}
-		@media (min-width: 992px) {
-			border-color: blue;
-			width: 960px;
-		}
-		@media (min-width: 1200px) {
-			border-color: green;
-			width: 1140px;
-		}
-		@media (min-width: 1440px) {
-			border-color: red;
-			width: 1380px;
-		}
-		@media (min-width: 1600px) {
-			border-color: yellow;
-			width: 1560px;
-		}
+.nav-top .nav-container,
+.section-container {
+	@media (min-width: 576px) {
+		border-color: purple;
+		width: 540px;
+	}
+	@media (min-width: 768px) {
+		border-color: beige;
+		width: 720px;
+	}
+	@media (min-width: 992px) {
+		border-color: blue;
+		width: 960px;
+	}
+	@media (min-width: 1200px) {
+		border-color: green;
+		width: 1140px;
+	}
+	@media (min-width: 1440px) {
+		border-color: red;
+		width: 1380px;
+	}
+	@media (min-width: 1600px) {
+		border-color: yellow;
+		width: 1560px;
 	}
 }

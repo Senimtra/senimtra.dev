@@ -5,7 +5,7 @@
 window.onresize = () => {
 	// ### Onresize performance timeout ###
 	clearTimeout(window.resizeTimeout);
-	window.resizeTimeout = setTimeout(() => navPosition(), 100);
+	window.resizeTimeout = setTimeout(() => navPosition(), 50);
 };
 
 // ### Event listeners ###
@@ -15,24 +15,23 @@ document
 	.forEach(el => el.addEventListener('click', () => navGeneral()));
 
 const navbarElement = document.querySelector('.navbar');
-const navCenterElement = document.querySelector('.nav-center');
 
 const navPosition = () => {
 	const winWidth = window.innerWidth;
-	// ### Navbar horizontal positioning ###
-	if (navCenterElement && winWidth < 992) {
-		const navWidth = navCenterElement.clientWidth;
+	// ### Navbar horizontal positioning (centered) ###
+	if (navbarElement.classList.contains('nav-center') && winWidth < 992) {
+		const navWidth = navbarElement.clientWidth;
 		const navPosX = `${(winWidth - navWidth) / 2}px`;
-		navCenterElement.style.left = (winWidth > navWidth && navPosX) || '0';
+		navbarElement.style.left = (winWidth > navWidth && navPosX) || '0';
 	} else {
-		navCenterElement.style.left = `${(winWidth / 100) * 15}px`;
+		navbarElement.style.left = `${(winWidth / 100) * 15}px`;
 	}
-	// ### Navbar vertical positioning ###
-	if (navCenterElement) {
-		const navHeight = navCenterElement.clientHeight;
+	// ### Navbar vertical positioning (centered) ###
+	if (navbarElement.classList.contains('nav-center')) {
+		const navHeight = navbarElement.clientHeight;
 		const winHeight = window.innerHeight;
 		const navPosY = `${(winHeight - navHeight) / 2}px`;
-		navCenterElement.style.top = (winHeight > navHeight && navPosY) || '0';
+		navbarElement.style.top = (winHeight > navHeight && navPosY) || '0';
 	}
 };
 

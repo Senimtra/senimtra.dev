@@ -117,6 +117,7 @@ section {
 @media (max-width: 991px) {
   .nav-center {
     align-items: center !important;
+    text-align: center;
   }
 
   #nav-name-long {
@@ -135,5 +136,27 @@ section {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
+  }
+
+  #icons {
+    margin-top: 2.5rem !important;
+    font-size: 1.7rem;
+  }
+  #icons i:first-child {
+    margin-left: 0rem !important;
+  }
+}
+@media (max-width: 172px) {
+  #icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem !important;
+  }
+  #icons i {
+    margin-left: 0rem !important;
+    margin-top: 1rem !important;
+  }
+  #icons i:first-child {
+    margin-top: 0rem !important;
   }
 }/*# sourceMappingURL=styles.css.map */

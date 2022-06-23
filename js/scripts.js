@@ -19,12 +19,14 @@ const navbarElement = document.querySelector('.navbar');
 const navPosition = () => {
 	const winWidth = window.innerWidth;
 	// ### Navbar horizontal positioning (centered) ###
-	if (navbarElement.classList.contains('nav-center') && winWidth < 992) {
-		const navWidth = navbarElement.clientWidth;
-		const navPosX = `${(winWidth - navWidth) / 2}px`;
-		navbarElement.style.left = (winWidth > navWidth && navPosX) || '0';
-	} else {
-		navbarElement.style.left = `${(winWidth / 100) * 15}px`;
+	if (navbarElement.classList.contains('nav-center')) {
+		if (winWidth < 992) {
+			const navWidth = navbarElement.clientWidth;
+			const navPosX = `${(winWidth - navWidth) / 2}px`;
+			navbarElement.style.left = (winWidth > navWidth && navPosX) || '0';
+		} else {
+			navbarElement.style.left = `${(winWidth / 100) * 15}px`;
+		}
 	}
 	// ### Navbar vertical positioning (centered) ###
 	if (navbarElement.classList.contains('nav-center')) {

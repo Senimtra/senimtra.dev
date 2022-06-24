@@ -3,12 +3,17 @@
 // #####################
 
 #nav-name-long,
-#nav-name-short {
+#nav-name-short,
+#nav-name-shortest {
 	color: $white !important;
 	font-family: $font-primary;
 	font-size: 2.8rem;
 	font-weight: 700;
 	white-space: nowrap;
+}
+
+#nav-name-short {
+	padding-left: 1rem !important;
 }
 
 #nav-message {
@@ -33,6 +38,24 @@
 	ul {
 		margin: 0 !important;
 	}
+}
+
+.navbar-toggler {
+	width: 100%;
+	text-align: right;
+	background-color: $dark-opa;
+	padding: 1rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.navbar-toggler-icon .fas {
+	font-size: 30px;
 }
 
 .nav-home {
@@ -60,7 +83,6 @@
 		border: 1px solid green;
 	}
 	background-color: $dark-opa !important;
-	border: 1px solid red;
 	position: absolute;
 	left: 0 !important;
 	width: 100%;
@@ -70,13 +92,15 @@
 	.nav-container {
 		border: 1px solid white;
 		display: flex;
+		justify-content: space-between;
 		align-items: center;
 	}
 	#nav-message {
 		display: none;
 	}
 	#icons,
-	#nav-name-long {
+	#nav-name-long,
+	#nav-name-short {
 		display: none;
 	}
 	#nav-name-short {
@@ -90,7 +114,8 @@
 	flex-direction: column;
 	align-items: flex-start;
 	.contact,
-	#nav-name-short {
+	#nav-name-short,
+	#nav-name-shortest {
 		display: none;
 	}
 }
@@ -123,16 +148,15 @@
 				background-color: $dark-opa;
 			}
 		}
+		.navbar-toggler {
+			background-color: $dark-opa;
+			height: 5.3rem;
+			border-radius: 0;
+		}
+
 		.nav-link {
 			margin-left: 2rem !important;
 		}
-	}
-
-	.navbar-toggler {
-		width: 100%;
-		text-align: right;
-		background-color: $dark-opa;
-		padding: 1rem;
 	}
 
 	.navbar-collapse {
@@ -140,20 +164,6 @@
 		padding-bottom: 2rem;
 	}
 
-	.navbar-toggler:focus,
-	.navbar-toggler:active,
-	.navbar-toggler-icon:focus {
-		outline: none;
-		box-shadow: none;
-	}
-
-	.navbar-toggler > .close {
-		display: inline;
-	}
-
-	.navbar-toggler-icon .fas {
-		font-size: 30px;
-	}
 	#icons {
 		i:first-child {
 			margin-left: 0rem !important;
@@ -182,9 +192,33 @@
 // ##  Media queries (content sections)  ##
 // ########################################
 
+@media (max-width: 210px) {
+	.nav-top .nav-container {
+		justify-content: flex-end !important;
+		#nav-name-shortest {
+			display: none;
+		}
+		#nav-menu {
+			align-self: flex-end;
+		}
+	}
+}
+
 .nav-top .nav-container,
 .section-container {
+	@media (max-width: 374px) {
+		width: 100%;
+	}
+	@media (min-width: 375px) {
+		width: 375px;
+	}
 	@media (min-width: 576px) {
+		#nav-name-shortest {
+			display: none;
+		}
+		#nav-name-short {
+			display: inline;
+		}
 		border-color: purple;
 		width: 540px;
 	}
@@ -203,9 +237,5 @@
 	@media (min-width: 1440px) {
 		border-color: red;
 		width: 1380px;
-	}
-	@media (min-width: 1600px) {
-		border-color: yellow;
-		width: 1560px;
 	}
 }

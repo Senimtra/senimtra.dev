@@ -43,6 +43,7 @@ navPosition();
 const navHome = () => {
 	if (navbarElement.classList.contains('nav-top')) {
 		navbarElement.classList.replace('nav-top', 'nav-center');
+		navbarElement.classList.replace('navbar-expand-xl', 'navbar-expand-lg');
 		navPosition();
 	}
 };
@@ -51,6 +52,7 @@ const navHome = () => {
 const navGeneral = () => {
 	if (navbarElement.classList.contains('nav-center')) {
 		navbarElement.classList.replace('nav-center', 'nav-top');
+		navbarElement.classList.replace('navbar-expand-lg', 'navbar-expand-xl');
 		navbarElement.style.top = '0';
 	}
 };

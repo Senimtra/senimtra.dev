@@ -2,18 +2,12 @@
 // ##  Navbar styles  ##
 // #####################
 
-#nav-name-long,
-#nav-name-short,
-#nav-name-shortest {
+#nav-name-long {
 	color: $white !important;
 	font-family: $font-primary;
 	font-size: 2.8rem;
 	font-weight: 700;
 	white-space: nowrap;
-}
-
-#nav-name-short {
-	padding-left: 1rem !important;
 }
 
 #nav-message {
@@ -45,6 +39,7 @@
 	text-align: right;
 	background-color: $dark-opa;
 	padding: 1rem;
+	border-radius: 0;
 }
 
 .navbar-toggler:focus,
@@ -79,18 +74,15 @@
 }
 
 .nav-top {
-	* {
-		border: 1px solid green;
-	}
-	background-color: $dark-opa !important;
+	background-color: transparent !important;
 	position: absolute;
 	left: 0 !important;
+	padding: 0 !important;
 	width: 100%;
 	height: 5.3rem;
-	justify-content: center !important;
-	padding: 0 !important;
 	.nav-container {
-		border: 1px solid white;
+		width: inherit;
+		height: inherit;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -98,13 +90,17 @@
 	#nav-message {
 		display: none;
 	}
-	#icons,
-	#nav-name-long,
-	#nav-name-short {
-		display: none;
+	#nav-menu {
+		height: inherit;
+		width: inherit;
+		width: 100%;
 	}
-	#nav-name-short {
-		font-size: 2.5rem;
+	.navbar-toggler {
+		height: inherit;
+	}
+	#icons,
+	#nav-name-long {
+		display: none;
 	}
 }
 
@@ -113,9 +109,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	.contact,
-	#nav-name-short,
-	#nav-name-shortest {
+	.contact {
 		display: none;
 	}
 }
@@ -124,7 +118,7 @@
 // ##  Media queries (home section)  ##
 // ####################################
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
 	.nav-center {
 		align-items: center !important;
 		text-align: center;
@@ -149,11 +143,8 @@
 			}
 		}
 		.navbar-toggler {
-			background-color: $dark-opa;
 			height: 5.3rem;
-			border-radius: 0;
 		}
-
 		.nav-link {
 			margin-left: 2rem !important;
 		}
@@ -195,16 +186,20 @@
 @media (max-width: 210px) {
 	.nav-top .nav-container {
 		justify-content: flex-end !important;
-		#nav-name-shortest {
-			display: none;
-		}
 		#nav-menu {
 			align-self: flex-end;
 		}
 	}
 }
 
-.nav-top .nav-container,
+.nav-top {
+	@media (max-width: 1199.98px) {
+		.nav-link {
+			margin-left: 2rem !important;
+		}
+	}
+}
+
 .section-container {
 	@media (max-width: 374px) {
 		width: 100%;
@@ -213,12 +208,6 @@
 		width: 375px;
 	}
 	@media (min-width: 576px) {
-		#nav-name-shortest {
-			display: none;
-		}
-		#nav-name-short {
-			display: inline;
-		}
 		border-color: purple;
 		width: 540px;
 	}

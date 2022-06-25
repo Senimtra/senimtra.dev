@@ -24,7 +24,6 @@ section {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	overflow: auto;
 	height: 100%;
 	padding-top: 7rem !important;
 }
@@ -34,4 +33,10 @@ section {
 	color: $white;
 	border: 1px solid white;
 	padding: 1rem;
+	overflow: auto;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
 }

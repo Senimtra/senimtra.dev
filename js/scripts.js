@@ -6,6 +6,7 @@ window.onresize = () => navPosition();
 
 // ### Event listeners ###
 document.querySelector('.nav-home').addEventListener('click', () => navHome());
+document.querySelector('.navbar-toggler').addEventListener('click', () => navPosition());
 document.querySelectorAll('.nav-general').forEach(el =>
 	el.addEventListener('click', () => {
 		navGeneral();
@@ -18,6 +19,8 @@ const navbarElement = document.querySelector('.navbar');
 const sectionElement = document.querySelector('.section-container');
 const navNameElements = document.querySelectorAll('[id^="nav-name-s"]');
 const contactMenuElement = document.querySelector('.contact');
+const navItemElements = document.querySelectorAll('.nav-item');
+const navbarCollapseElement = document.querySelector('.navbar-collapse');
 
 // ### Navbar positioning (centered) ###
 const navPosition = () => {
@@ -40,6 +43,7 @@ const navPosition = () => {
 		navbarElement.style.top = (winHeight > navHeight && navPosY) || '0';
 	}
 	// ### Handle navbar spacers ###
+	navItemElements.forEach(el => (el.style.paddingLeft = '0px'));
 	if (navbarElement.classList.contains('nav-top')) {
 		let spacerWidth;
 		// Brand spacer
@@ -53,6 +57,10 @@ const navPosition = () => {
 		// Menu spacer
 		if (winWidth > 1200) {
 			contactMenuElement.style.marginRight = `${spacerWidth}px`;
+		}
+		// Nav-link spacers
+		if (winWidth < 1200) {
+			navItemElements.forEach(el => (el.style.paddingLeft = `${spacerWidth}px`));
 		}
 	}
 };

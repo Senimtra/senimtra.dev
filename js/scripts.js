@@ -2,23 +2,27 @@
 // ##  Navbar positioning  ##
 // ##########################
 
-window.onresize = () => {
-	// ### Onresize performance timeout ###
-	clearTimeout(window.resizeTimeout);
-	window.resizeTimeout = setTimeout(() => navPosition(), 50);
-};
+window.onresize = () => navPosition();
 
 // ### Event listeners ###
 document.querySelector('.nav-home').addEventListener('click', () => navHome());
-document
-	.querySelectorAll('.nav-general')
-	.forEach(el => el.addEventListener('click', () => navGeneral()));
+document.querySelectorAll('.nav-general').forEach(el =>
+	el.addEventListener('click', () => {
+		navGeneral();
+		navPosition();
+	})
+);
 
+// ### DOM elements ###
 const navbarElement = document.querySelector('.navbar');
+const sectionElement = document.querySelector('.section-container');
+const navNameElements = document.querySelectorAll('[id^="nav-name-s"]');
+const contactMenuElement = document.querySelector('.contact');
 
+// ### Navbar positioning (centered) ###
 const navPosition = () => {
 	const winWidth = window.innerWidth;
-	// ### Navbar horizontal positioning (centered) ###
+	// Horizontal positioning
 	if (navbarElement.classList.contains('nav-center')) {
 		if (winWidth < 992) {
 			const navWidth = navbarElement.clientWidth;
@@ -28,12 +32,28 @@ const navPosition = () => {
 			navbarElement.style.left = `${(winWidth / 100) * 15}px`;
 		}
 	}
-	// ### Navbar vertical positioning (centered) ###
+	// Vertical positioning
 	if (navbarElement.classList.contains('nav-center')) {
 		const navHeight = navbarElement.clientHeight;
 		const winHeight = window.innerHeight;
 		const navPosY = `${(winHeight - navHeight) / 2}px`;
 		navbarElement.style.top = (winHeight > navHeight && navPosY) || '0';
+	}
+	// ### Handle navbar spacers ###
+	if (navbarElement.classList.contains('nav-top')) {
+		let spacerWidth;
+		// Brand spacer
+		if (winWidth > 375) {
+			const sectionWidth = sectionElement.clientWidth;
+			spacerWidth = (winWidth - sectionWidth) / 2;
+			navNameElements.forEach(
+				el => window.getComputedStyle(el).display === 'flex' && (el.style.left = `${spacerWidth}px`)
+			);
+		}
+		// Menu spacer
+		if (winWidth > 1200) {
+			contactMenuElement.style.marginRight = `${spacerWidth}px`;
+		}
 	}
 };
 

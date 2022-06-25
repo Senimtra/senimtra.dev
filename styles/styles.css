@@ -215,7 +215,17 @@ section {
   }
   .nav-top .navbar-nav {
     padding-bottom: 2rem;
-    background: rgba(0, 0, 0, 0.6274509804);
+    background-color: rgba(0, 0, 0, 0.6274509804);
+  }
+}
+@media (min-width: 1200px) {
+  .nav-top .navbar-collapse {
+    height: inherit;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.6274509804);
+  }
+  .nav-top .contact {
+    margin-right: 1rem !important;
   }
 }
 

@@ -194,7 +194,17 @@
 		}
 		.navbar-nav {
 			padding-bottom: 2rem;
-			background: $dark-opa;
+			background-color: $dark-opa;
+		}
+	}
+	@media (min-width: 1200px) {
+		.navbar-collapse {
+			height: inherit;
+			justify-content: flex-end;
+			background-color: $dark-opa;
+		}
+		.contact {
+			margin-right: 1rem !important;
 		}
 	}
 }

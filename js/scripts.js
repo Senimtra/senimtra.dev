@@ -5,8 +5,11 @@
 window.onresize = () => navPosition();
 
 // ### Event listeners ###
-document.querySelector('.nav-home').addEventListener('click', () => navHome());
 document.querySelector('.navbar-toggler').addEventListener('click', () => navPosition());
+document.querySelector('.nav-home').addEventListener('click', () => {
+	navHome();
+	navCollapseHome();
+});
 document.querySelectorAll('.nav-general').forEach(el =>
 	el.addEventListener('click', () => {
 		navGeneral();
@@ -91,4 +94,11 @@ const navGeneral = () => {
 const navCollapse = () => {
 	let navToggle = new bootstrap.Collapse(collapseContentElement, { toggle: false });
 	navbarCollapseElement.classList.contains('show') && navToggle.toggle();
+};
+const navCollapseHome = () => {
+	if (window.innerWidth < 992) {
+		let navHide = new bootstrap.Collapse(collapseContentElement);
+		navHide.hide();
+	}
+	navbarCollapseElement.classList.remove('show');
 };

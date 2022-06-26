@@ -11,6 +11,7 @@ document.querySelectorAll('.nav-general').forEach(el =>
 	el.addEventListener('click', () => {
 		navGeneral();
 		navPosition();
+		navCollapse();
 	})
 );
 
@@ -21,6 +22,7 @@ const navNameElements = document.querySelectorAll('[id^="nav-name-s"]');
 const contactMenuElement = document.querySelector('.contact');
 const navItemElements = document.querySelectorAll('.nav-item');
 const navbarCollapseElement = document.querySelector('.navbar-collapse');
+const collapseContentElement = document.querySelector('#navbarSupportedContent');
 
 // ### Navbar positioning (centered) ###
 const navPosition = () => {
@@ -83,4 +85,10 @@ const navGeneral = () => {
 		navbarElement.classList.replace('navbar-expand-lg', 'navbar-expand-xl');
 		navbarElement.style.top = '0';
 	}
+};
+
+// ### Close collapsed navbar on nav-link click ###
+const navCollapse = () => {
+	let navToggle = new bootstrap.Collapse(collapseContentElement, { toggle: false });
+	navbarCollapseElement.classList.contains('show') && navToggle.toggle();
 };

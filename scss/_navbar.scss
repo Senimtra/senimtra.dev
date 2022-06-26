@@ -21,7 +21,8 @@
 		display: inline;
 		text-decoration: underline;
 		text-decoration-color: $blue;
-		text-underline-offset: 0.3rem;
+		text-decoration-thickness: 3.5px;
+		text-underline-offset: 0.2rem;
 	}
 	margin: 0.7rem 0 1.4rem !important;
 }
@@ -29,11 +30,15 @@
 #nav-menu {
 	a {
 		font-size: 1.3rem;
-		color: $white !important;
+		color: $grey !important;
 	}
 	ul {
 		margin: 0 !important;
 	}
+}
+
+.nav-link {
+	display: inline-block;
 }
 
 .navbar-toggler {
@@ -56,12 +61,8 @@
 	font-size: 30px;
 }
 
-.nav-home {
-	padding-left: 0 !important;
-}
-
 .nav-general {
-	margin-left: 1.2rem !important;
+	margin-left: 2rem !important;
 }
 
 #icons {
@@ -232,7 +233,6 @@
 		.navbar-collapse {
 			height: inherit;
 			justify-content: flex-end;
-			background-color: $dark-opa;
 		}
 		.contact {
 			padding-right: 1rem !important;
@@ -267,4 +267,42 @@
 		border-color: red;
 		width: 1380px;
 	}
+}
+
+// #############################
+// ##  Nav-link hover effect  ##
+// #############################
+
+.navbar-nav a {
+	padding: 0 !important;
+	position: relative;
+}
+.navbar-nav a:before,
+.navbar-nav a:after {
+	position: absolute;
+	transition: all 0.6s ease;
+}
+.navbar-nav a:before {
+	bottom: 0;
+	height: 3px;
+	width: 0%;
+	content: '';
+	background-color: $blue;
+}
+.navbar-nav a:after {
+	left: 0;
+	position: absolute;
+	content: attr(data-hover);
+	color: $white;
+	max-width: 0%;
+	overflow: hidden;
+}
+.navbar-nav a:hover:before,
+.navbar-nav .current a:before {
+	opacity: 1;
+	width: 100%;
+}
+.navbar-nav a:hover:after,
+.navbar-nav .current a:after {
+	max-width: 100%;
 }

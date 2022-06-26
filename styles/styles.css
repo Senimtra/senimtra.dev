@@ -62,15 +62,20 @@ section {
   text-decoration: underline;
   -webkit-text-decoration-color: #4d4dd6;
           text-decoration-color: #4d4dd6;
-  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 3.5px;
+  text-underline-offset: 0.2rem;
 }
 
 #nav-menu a {
   font-size: 1.3rem;
-  color: #dcdad7 !important;
+  color: #a5a5a5 !important;
 }
 #nav-menu ul {
   margin: 0 !important;
+}
+
+.nav-link {
+  display: inline-block;
 }
 
 .navbar-toggler {
@@ -93,12 +98,8 @@ section {
   font-size: 30px;
 }
 
-.nav-home {
-  padding-left: 0 !important;
-}
-
 .nav-general {
-  margin-left: 1.2rem !important;
+  margin-left: 2rem !important;
 }
 
 #icons {
@@ -256,7 +257,6 @@ section {
   .nav-top .navbar-collapse {
     height: inherit;
     justify-content: flex-end;
-    background-color: rgba(0, 0, 0, 0.6274509804);
   }
   .nav-top .contact {
     padding-right: 1rem !important;
@@ -302,4 +302,43 @@ section {
     border-color: red;
     width: 1380px;
   }
+}
+
+.navbar-nav a {
+  padding: 0 !important;
+  position: relative;
+}
+
+.navbar-nav a:before,
+.navbar-nav a:after {
+  position: absolute;
+  transition: all 0.6s ease;
+}
+
+.navbar-nav a:before {
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #4d4dd6;
+}
+
+.navbar-nav a:after {
+  left: 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #dcdad7;
+  max-width: 0%;
+  overflow: hidden;
+}
+
+.navbar-nav a:hover:before,
+.navbar-nav .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+
+.navbar-nav a:hover:after,
+.navbar-nav .current a:after {
+  max-width: 100%;
 }/*# sourceMappingURL=styles.css.map */

@@ -6,15 +6,17 @@ window.onresize = () => navPosition();
 
 // ### Event listeners ###
 document.querySelector('.navbar-toggler').addEventListener('click', () => navPosition());
-document.querySelector('.nav-home').addEventListener('click', () => {
+document.querySelector('.nav-home').addEventListener('click', event => {
 	navHome();
 	navCollapseHome();
+	handleFocus(event);
 });
 document.querySelectorAll('.nav-general').forEach(el =>
-	el.addEventListener('click', () => {
+	el.addEventListener('click', event => {
 		navGeneral();
 		navPosition();
 		navCollapse();
+		handleFocus(event);
 	})
 );
 
@@ -101,4 +103,12 @@ const navCollapseHome = () => {
 		navHide.hide();
 	}
 	navbarCollapseElement.classList.remove('show');
+};
+
+// ### Handle nav-link focus styles ###
+const handleFocus = event => {
+	const current = document.querySelector('.current');
+	current.classList.remove('current');
+	console.log(event.target.parentNode);
+	event.target.parentNode.classList.add('current');
 };

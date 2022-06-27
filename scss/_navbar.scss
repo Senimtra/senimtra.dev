@@ -66,15 +66,17 @@
 }
 
 #icons {
-	i {
-		margin-left: 2rem !important;
-		color: $white !important;
-	}
-	i:first-child {
-		margin-left: 1rem !important;
-	}
+	display: flex;
+	color: $white;
 	margin-top: 2.5rem !important;
 	font-size: 1.7rem;
+	div {
+		width: 5rem;
+		height: 5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 .nav-top {
@@ -162,21 +164,21 @@
 		}
 		.nav-link {
 			margin-left: 2rem !important;
+			margin-top: 1rem;
 		}
-	}
-
-	#icons {
-		i:first-child {
-			margin-left: 0rem !important;
+		#icons {
+			justify-content: center;
+			i:first-child {
+				margin-left: 0rem !important;
+			}
+			margin-top: 2rem !important;
+			font-size: 1.7rem;
 		}
-		margin-top: 2.5rem !important;
-		font-size: 1.7rem;
 	}
 }
 
 @media (max-width: 172px) {
 	#icons {
-		display: flex;
 		flex-direction: column;
 		i {
 			margin-left: 0rem !important;
@@ -222,6 +224,7 @@
 	@media (max-width: 1199.98px) {
 		.nav-link {
 			margin-left: 2rem !important;
+			margin-top: 1rem;
 		}
 		.navbar-nav {
 			padding-top: 1rem;
@@ -305,4 +308,21 @@
 .navbar-nav a:hover:after,
 .navbar-nav .current a:after {
 	max-width: 100%;
+}
+
+// ################################
+// ##  Media-icons hover effect  ##
+// ################################
+
+.icon-container {
+	width: 0px !important;
+	height: 0px !important;
+	border-radius: 50%;
+	background-color: $blue;
+	transition: all 0.25s ease;
+}
+
+.icon-container:hover {
+	padding: 26px;
+	cursor: pointer;
 }

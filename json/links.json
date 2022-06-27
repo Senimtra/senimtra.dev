@@ -1,0 +1,132 @@
+[
+  {
+    "category": "Challenges",
+    "url": "https://www.codewars.com/",
+    "name": "Codewars"
+  },
+  {
+    "category": "Challenges",
+    "url": "https://adventofcode.com/",
+    "name": "Advent of Code"
+  },
+  {
+    "category": "Challenges",
+    "url": "https://sololearn.com",
+    "name": "Sololearn"
+  },
+  {
+    "category": "JavaScript",
+    "url": "https://blog.sentry.io/2018/10/18/4-reasons-why-your-source-maps-are-broken",
+    "name": "4 Reasons why your Source Maps are broken"
+  },
+  {
+    "category": "React",
+    "url": "https://robinvdvleuten.nl/blog/scroll-a-react-component-into-view/",
+    "name": "Scroll a React component into view"
+  },
+  {
+    "category": "CSS",
+    "url": "https://paulund.co.uk/css-animation-link-underline",
+    "name": "CSS animation link underline"
+  },
+  {
+    "category": "SQL",
+    "url": "https://www.youtube.com/watch?v=xICxEHhNM84",
+    "name": "SQL Zusätze in DDL - SQL 4"
+  },
+  {
+    "category": "SQL",
+    "url": "https://www.youtube.com/playlist?list=PL_pqkvxZ6ho1dn7jRkTfoYBXhw5c9jll0",
+    "name": "Youtube-playlist Datenbanken und SQL"
+  },
+  {
+    "category": "SQL",
+    "url": "https://devhints.io/mysql",
+    "name": "MySQL cheatsheet"
+  },
+  {
+    "category": "SQL",
+    "url": "https://www.datenbanken-verstehen.de/datenmodellierung/normalisierung/",
+    "name": "Normalisierung von Datenbanken"
+  },
+  {
+    "category": "SQL",
+    "url": "https://www.youtube.com/watch?v=a9W7OpS4LfI&list=PLyuRouwmQCjlXvBkTfGeDTq79r9_GoMt9",
+    "name": "Learning MySQL - Getting Started"
+  },
+  {
+    "category": "Databases",
+    "url": "https://www.youtube.com/watch?v=UI6lqHOVHic&t=3s",
+    "name": "UML class diagram tutorial"
+  },
+  {
+    "category": "Databases",
+    "url": "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y",
+    "name": "SQL vs NoSQL or MySQL vs MongoDB"
+  },
+  {
+    "category": "VS Code",
+    "url": "https://www.youtube.com/watch?v=AJBnww90aHs",
+    "name": "VS Code Extensions: mssql and vscode-database"
+  },
+  {
+    "category": "VS Code",
+    "url": "https://www.youtube.com/watch?v=jMO2sLJElzs",
+    "name": "How to connect Live Server with Local Server | PHP Live Server VS Code | Xampp"
+  },
+  {
+    "category": "Git/GitHub",
+    "url": "https://en.wikipedia.org/wiki/Distributed_version_control",
+    "name": "Distributed version control - Wikipedia"
+  },
+  {
+    "category": "Git/GitHub",
+    "url": "https://github.com/git/git",
+    "name": "Git source code mirror"
+  },
+  {
+    "category": "Git/GitHub",
+    "url": "https://octodex.github.com/",
+    "name": "Octodex"
+  },
+  {
+    "category": "Git/GitHub",
+    "url": "https://education.github.com/git-cheat-sheet-education.pdf",
+    "name": "Git cheat sheet"
+  },
+  {
+    "category": "Git/GitHub",
+    "url": "https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53",
+    "name": "Commit message guidelines"
+  },
+  {
+    "category": "Git/GitHub",
+    "url": "https://sparkbox.com/foundry/semantic_commit_messages",
+    "name": "Semantic commit messages"
+  },
+  {
+    "category": "Git/GitHub",
+    "url": "https://learngitbranching.js.org/",
+    "name": "Learn Git Branching"
+  },
+  {
+    "category": "Frameworks",
+    "url": "https://www.youtube.com/watch?v=DuB6UjEsY_Y&t=1s",
+    "name": "Rasmus Lerdorf: why most frameworks suck!"
+  },
+  {
+    "category": "Testing",
+    "url": "https://web.dev/measure/",
+    "name": "Measure page quality"
+  },
+  {
+    "category": "Cyber-Security",
+    "url": "https://www.youtube.com/watch?v=QyQuXmPq7as",
+    "name": "Ethical Hacking - White hat hacking complete course"
+  },
+  {
+    "category": "Profession",
+    "url": "https://www.ironhack.com/en/courses/top-reasons-why-being-a-freelancer-is-a-great-choice?utm_source=linkedin&utm_medium=social&utm_campaign=21-11_GLO_glo_GLO_clics_blog-post&utm_content=organic-social",
+    "name": "Top reasons why being a freelancer is a great choice"
+  }
+]

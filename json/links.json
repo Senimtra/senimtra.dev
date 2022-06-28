@@ -128,5 +128,45 @@
     "category": "Profession",
     "url": "https://www.ironhack.com/en/courses/top-reasons-why-being-a-freelancer-is-a-great-choice?utm_source=linkedin&utm_medium=social&utm_campaign=21-11_GLO_glo_GLO_clics_blog-post&utm_content=organic-social",
     "name": "Top reasons why being a freelancer is a great choice"
+  },
+  {
+    "category": "Resources",
+    "url": "https://www.littlesnippets.net/",
+    "name": "Inspiring Menu/Buttons/Tiles CSS effects"
+  },
+  {
+    "category": "SVG",
+    "url": "https://haikei.app/",
+    "name": "Generate unique SVG design assets"
+  },
+  {
+    "category": "Angular",
+    "url": "https://hdtuto.com/article/how-to-use-sweetalert2-in-angular-10",
+    "name": "How to use Sweetalert2 in Angular 10?"
+  },
+  {
+    "category": "Profession",
+    "url": "https://www.wearedevelopers.com/",
+    "name": "Go-To Job Board"
+  },
+  {
+    "category": "Profession",
+    "url": "https://www.awwwards.com/",
+    "name": "The awards that recognize the talent and effort of the best web designers, developers and agencies in the world."
+  },
+  {
+    "category": "CSS",
+    "url": "https://browserstrangeness.bitbucket.io/css_hacks.html",
+    "name": "CSS quick-fixes for browser-specific bugs"
+  },
+  {
+    "category": "SVG",
+    "url": "https://getwaves.io/",
+    "name": "SVG wave generator"
+  },
+  {
+    "category": "JavaScript",
+    "url": "https://michalsnik.github.io/aos/",
+    "name": "Small library to animate elements on your page as you scroll"
   }
 ]

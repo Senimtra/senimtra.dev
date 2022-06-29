@@ -168,5 +168,40 @@
     "category": "JavaScript",
     "url": "https://michalsnik.github.io/aos/",
     "name": "Small library to animate elements on your page as you scroll"
+  },
+  {
+    "category": "Angular",
+    "url": "https://www.youtube.com/watch?v=Fdf5aTYRW0E&t=2s",
+    "name": "Angular crash course"
+  },
+  {
+    "category": "API",
+    "url": "https://openweathermap.org/",
+    "name": "OpenWeather free weather API"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://nodejs.org/en/",
+    "name": "Node.js - a JavaScript runtime"
+  },
+  {
+    "category": "Organization",
+    "url": "https://trello.com/home",
+    "name": "Visual tool for team projects, workflow or task tracking"
+  },
+  {
+    "category": "PHP",
+    "url": "https://www.php.net/docs.php",
+    "name": "PHP documentation"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://en.wikipedia.org/wiki/V8_(JavaScript_engine)",
+    "name": "V8 (JavaScript engine) - Wikipedia"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://www.infoq.com/interviews/node-ryan-dahl/",
+    "name": "Deep inside Node.js with Ryan Dahl"
   }
 ]

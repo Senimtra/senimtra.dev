@@ -17,12 +17,10 @@
 	color: $grey !important;
 	font-weight: lighter;
 	div {
+		height: 2.5rem;
 		color: $white !important;
-		display: inline;
-		text-decoration: underline;
-		text-decoration-color: $blue;
-		text-decoration-thickness: 3.5px;
-		text-underline-offset: 0.2rem;
+		display: inline-block;
+		border-bottom: 3px solid $blue;
 	}
 	margin: 0.7rem 0 1.4rem !important;
 }
@@ -290,7 +288,7 @@
 	height: 3px;
 	width: 0%;
 	content: '';
-	background-color: $blue;
+	background-color: $blue !important;
 }
 .navbar-nav a:after {
 	left: 0;

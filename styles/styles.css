@@ -108,13 +108,10 @@ section {
   margin: 0.7rem 0 1.4rem !important;
 }
 #nav-message div {
+  height: 2.5rem;
   color: #dcdad7 !important;
-  display: inline;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #4d4dd6;
-          text-decoration-color: #4d4dd6;
-  text-decoration-thickness: 3.5px;
-  text-underline-offset: 0.2rem;
+  display: inline-block;
+  border-bottom: 3px solid #4d4dd6;
 }
 
 #nav-menu a {
@@ -374,7 +371,7 @@ section {
   height: 3px;
   width: 0%;
   content: "";
-  background-color: #4d4dd6;
+  background-color: #4d4dd6 !important;
 }
 
 .navbar-nav a:after {

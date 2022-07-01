@@ -11,6 +11,7 @@ document.querySelector('.nav-home').addEventListener('click', event => {
 	navCollapseHome();
 	handleFocus(event);
 	removeFocus();
+	homeFocus();
 });
 document.querySelectorAll('.nav-general').forEach(el =>
 	el.addEventListener('click', event => {
@@ -110,20 +111,28 @@ const navCollapseHome = () => {
 
 // ### Handle nav-link focus styles ###
 const handleFocus = event => {
-	const current = document.querySelector('.current');
-	current.classList.remove('current');
+	const currentNavLinkElement = document.querySelector('.current');
+	currentNavLinkElement.classList.remove('current');
 	event.target.parentNode.classList.add('current');
 };
 
-// ### Apply active section styles ###
+// ### Apply active section styles (animation) ###
 const sectionFocus = event => {
-	const sectionTarget = event.target.getAttribute('data-hover');
-	const newActiveSection = document.querySelector(`#${sectionTarget}`);
-	newActiveSection.childNodes[1].classList.add('section-active');
+	const sectionTargetElement = event.target.getAttribute('data-hover');
+	const newActiveSectionElement = document.querySelector(`#${sectionTargetElement}`);
+	newActiveSectionElement.childNodes[1].classList.add('section-active');
 };
 
-// ### Remove section styles ###
+// ### Remove home + section styles (animation) ###
 const removeFocus = () => {
-	const oldActiveSection = document.querySelectorAll('.section-active');
-	oldActiveSection.forEach(el => el.classList.remove('section-active'));
+	const oldActiveSectionElement = document.querySelectorAll('.section-active');
+	oldActiveSectionElement.forEach(el => el.classList.remove('section-active'));
+	const homeNavElement = document.querySelector('.navbar');
+	homeNavElement.classList.remove('nav-active');
+};
+
+// ### Apply home styles (animation) ###
+const homeFocus = () => {
+	const homeNavElement = document.querySelector('.navbar');
+	homeNavElement.classList.add('nav-active');
 };

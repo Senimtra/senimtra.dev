@@ -41,13 +41,32 @@ section {
 	background: transparent;
 }
 
+// ##################################
+// ##  Home + sections animations  ##
+// ##################################
+
 .section-active {
-	animation: fade-in 0.8s;
+	animation: sectionFadeIn 0.8s;
 }
 
-@keyframes fade-in {
+.nav-active {
+	animation: homeFadeIn 0.8s;
+}
+
+@keyframes sectionFadeIn {
 	from {
 		margin-top: 2rem;
+		opacity: 0;
+	}
+	to {
+		margin-top: 0%;
+		opacity: 1;
+	}
+}
+
+@keyframes homeFadeIn {
+	from {
+		margin-top: -2rem;
 		opacity: 0;
 	}
 	to {

@@ -41,11 +41,16 @@ section {
 }
 
 .section-active {
-  -webkit-animation: fade-in 0.8s;
-          animation: fade-in 0.8s;
+  -webkit-animation: sectionFadeIn 0.8s;
+          animation: sectionFadeIn 0.8s;
 }
 
-@-webkit-keyframes fade-in {
+.nav-active {
+  -webkit-animation: homeFadeIn 0.8s;
+          animation: homeFadeIn 0.8s;
+}
+
+@-webkit-keyframes sectionFadeIn {
   from {
     margin-top: 2rem;
     opacity: 0;
@@ -56,9 +61,29 @@ section {
   }
 }
 
-@keyframes fade-in {
+@keyframes sectionFadeIn {
   from {
     margin-top: 2rem;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes homeFadeIn {
+  from {
+    margin-top: -2rem;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+@keyframes homeFadeIn {
+  from {
+    margin-top: -2rem;
     opacity: 0;
   }
   to {
@@ -341,7 +366,7 @@ section {
 .navbar-nav a:before,
 .navbar-nav a:after {
   position: absolute;
-  transition: all 0.6s ease;
+  transition: all 0.15s ease;
 }
 
 .navbar-nav a:before {

@@ -10,6 +10,7 @@ document.querySelector('.nav-home').addEventListener('click', event => {
 	navHome();
 	navCollapseHome();
 	handleFocus(event);
+	removeFocus();
 });
 document.querySelectorAll('.nav-general').forEach(el =>
 	el.addEventListener('click', event => {
@@ -17,6 +18,7 @@ document.querySelectorAll('.nav-general').forEach(el =>
 		navPosition();
 		navCollapse();
 		handleFocus(event);
+		removeFocus();
 		sectionFocus(event);
 	})
 );
@@ -116,8 +118,12 @@ const handleFocus = event => {
 // ### Apply active section styles ###
 const sectionFocus = event => {
 	const sectionTarget = event.target.getAttribute('data-hover');
-	const oldActiveSection = document.querySelectorAll('.section-active');
-	oldActiveSection.forEach(el => el.classList.remove('section-active'));
 	const newActiveSection = document.querySelector(`#${sectionTarget}`);
 	newActiveSection.childNodes[1].classList.add('section-active');
+};
+
+// ### Remove section styles ###
+const removeFocus = () => {
+	const oldActiveSection = document.querySelectorAll('.section-active');
+	oldActiveSection.forEach(el => el.classList.remove('section-active'));
 };

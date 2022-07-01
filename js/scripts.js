@@ -17,6 +17,7 @@ document.querySelectorAll('.nav-general').forEach(el =>
 		navPosition();
 		navCollapse();
 		handleFocus(event);
+		sectionFocus(event);
 	})
 );
 
@@ -109,6 +110,14 @@ const navCollapseHome = () => {
 const handleFocus = event => {
 	const current = document.querySelector('.current');
 	current.classList.remove('current');
-	console.log(event.target.parentNode);
 	event.target.parentNode.classList.add('current');
+};
+
+// ### Apply active section styles ###
+const sectionFocus = event => {
+	const sectionTarget = event.target.getAttribute('data-hover');
+	const oldActiveSection = document.querySelectorAll('.section-active');
+	oldActiveSection.forEach(el => el.classList.remove('section-active'));
+	const newActiveSection = document.querySelector(`#${sectionTarget}`);
+	newActiveSection.childNodes[1].classList.add('section-active');
 };

@@ -42,12 +42,12 @@ section {
 }
 
 .section-active {
-	animation: fade-in 1s;
+	animation: fade-in 0.8s;
 }
 
 @keyframes fade-in {
 	from {
-		margin-top: 3rem;
+		margin-top: 2rem;
 		opacity: 0;
 	}
 	to {

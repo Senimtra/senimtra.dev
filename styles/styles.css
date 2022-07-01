@@ -40,6 +40,32 @@ section {
   background: transparent;
 }
 
+.section-active {
+  -webkit-animation: fade-in 1s;
+          animation: fade-in 1s;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    margin-top: 3rem;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    margin-top: 3rem;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
 #nav-name-long,
 #nav-name-short,
 #nav-name-shortest {

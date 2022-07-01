@@ -40,3 +40,18 @@ section {
 	width: 0px;
 	background: transparent;
 }
+
+.section-active {
+	animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+	from {
+		margin-top: 3rem;
+		opacity: 0;
+	}
+	to {
+		margin-top: 0%;
+		opacity: 1;
+	}
+}

@@ -249,23 +249,18 @@
 		width: 375px;
 	}
 	@media (min-width: 576px) {
-		border-color: purple;
 		width: 540px;
 	}
 	@media (min-width: 768px) {
-		border-color: beige;
 		width: 720px;
 	}
 	@media (min-width: 992px) {
-		border-color: blue;
 		width: 960px;
 	}
 	@media (min-width: 1200px) {
-		border-color: green;
 		width: 1140px;
 	}
 	@media (min-width: 1440px) {
-		border-color: red;
 		width: 1380px;
 	}
 }

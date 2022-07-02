@@ -30,7 +30,6 @@ section {
 .section-container {
   background-color: rgba(0, 0, 0, 0.6274509804);
   color: #dcdad7;
-  border: 1px solid white;
   padding: 1rem;
   overflow: auto;
 }
@@ -52,7 +51,7 @@ section {
 
 @-webkit-keyframes sectionFadeIn {
   from {
-    margin-top: 2rem;
+    margin-top: 3rem;
     opacity: 0;
   }
   to {
@@ -63,7 +62,7 @@ section {
 
 @keyframes sectionFadeIn {
   from {
-    margin-top: 2rem;
+    margin-top: 3rem;
     opacity: 0;
   }
   to {
@@ -73,7 +72,7 @@ section {
 }
 @-webkit-keyframes homeFadeIn {
   from {
-    margin-top: -2rem;
+    margin-top: -6rem;
     opacity: 0;
   }
   to {
@@ -83,7 +82,7 @@ section {
 }
 @keyframes homeFadeIn {
   from {
-    margin-top: -2rem;
+    margin-top: -6rem;
     opacity: 0;
   }
   to {
@@ -326,31 +325,26 @@ section {
 }
 @media (min-width: 576px) {
   .section-container {
-    border-color: purple;
     width: 540px;
   }
 }
 @media (min-width: 768px) {
   .section-container {
-    border-color: beige;
     width: 720px;
   }
 }
 @media (min-width: 992px) {
   .section-container {
-    border-color: blue;
     width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .section-container {
-    border-color: green;
     width: 1140px;
   }
 }
 @media (min-width: 1440px) {
   .section-container {
-    border-color: red;
     width: 1380px;
   }
 }

@@ -162,6 +162,9 @@ section {
   align-items: center;
   justify-content: center;
 }
+#icons a {
+  color: #dcdad7;
+}
 
 .nav-top {
   background-color: transparent !important;
@@ -392,7 +395,7 @@ section {
   width: 0px !important;
   height: 0px !important;
   border-radius: 50%;
-  background-color: #4d4dd6;
+  background-color: #4d4dd6 !important;
   transition: all 0.25s ease;
 }
 

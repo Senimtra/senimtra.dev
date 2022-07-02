@@ -402,4 +402,8 @@ section {
 .icon-container:hover {
   padding: 26px;
   cursor: pointer;
+}
+
+#Links h2 {
+  margin-bottom: 3rem;
 }/*# sourceMappingURL=styles.css.map */

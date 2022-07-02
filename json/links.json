@@ -203,5 +203,35 @@
     "category": "Node.js",
     "url": "https://www.infoq.com/interviews/node-ryan-dahl/",
     "name": "Deep inside Node.js with Ryan Dahl"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://www.npmjs.com/",
+    "name": "Node.js package manager"
+  },
+  {
+    "category": "Programming",
+    "url": "https://www.quora.com/How-do-computers-understand-programming-languages-How-do-you-teach-a-computer-a-language",
+    "name": "How do computers understand programming languages?"
+  },
+  {
+    "category": "Browsers",
+    "url": "https://v8.dev/",
+    "name": "What is V8?"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://expressjs.com/",
+    "name": "Fast, unopinionated, minimalist web framework for Node.js"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://github.com/nvm-sh/nvm",
+    "name": "Node Version Manager"
+  },
+  {
+    "category": "Browsers",
+    "url": "https://spidermonkey.dev/",
+    "name": "Mozilla’s JavaScript and WebAssembly Engine"
   }
 ]

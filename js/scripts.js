@@ -5,24 +5,35 @@
 window.onresize = () => navPosition();
 
 // ### Event listeners ###
+window.addEventListener('hashchange', () => {
+	if (document.querySelector('.current').childNodes[1].getAttribute('href') !== location.hash) {
+		document.querySelector(`[href='${location.hash}']`).click();
+	}
+});
 document.querySelector('.navbar-toggler').addEventListener('click', () => navPosition());
-document.querySelector('.nav-home').addEventListener('click', event => {
+document.querySelector('.nav-home').addEventListener('click', event => homeNavigation(event));
+document
+	.querySelectorAll('.nav-general')
+	.forEach(el => el.addEventListener('click', event => sectionNavigation(event)));
+
+// ### Home navigation ###
+const homeNavigation = event => {
 	navHome();
 	navCollapseHome();
 	handleFocus(event);
 	removeFocus();
 	homeFocus();
-});
-document.querySelectorAll('.nav-general').forEach(el =>
-	el.addEventListener('click', event => {
-		navGeneral();
-		navPosition();
-		navCollapse();
-		handleFocus(event);
-		removeFocus();
-		sectionFocus(event);
-	})
-);
+};
+
+// ### Section navigation ###
+const sectionNavigation = event => {
+	navGeneral();
+	navPosition();
+	navCollapse();
+	handleFocus(event);
+	removeFocus();
+	sectionFocus(event);
+};
 
 // ### DOM elements ###
 const navbarElement = document.querySelector('.navbar');

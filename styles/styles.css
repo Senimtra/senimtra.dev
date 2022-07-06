@@ -24,7 +24,7 @@ section {
   justify-content: flex-start;
   align-items: center;
   height: 100%;
-  padding-top: 7rem !important;
+  padding-top: 7.5rem !important;
 }
 
 .section-container {
@@ -47,6 +47,8 @@ section {
 .nav-active {
   -webkit-animation: homeFadeIn 0.8s;
           animation: homeFadeIn 0.8s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 @-webkit-keyframes sectionFadeIn {
@@ -167,7 +169,7 @@ section {
 }
 
 .nav-top {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.6274509804) !important;
   position: absolute;
   left: 0 !important;
   padding: 0 !important;

@@ -25,7 +25,7 @@ section {
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
-	padding-top: 7rem !important;
+	padding-top: 7.5rem !important;
 }
 
 .section-container {
@@ -50,6 +50,7 @@ section {
 
 .nav-active {
 	animation: homeFadeIn 0.8s;
+	animation-timing-function: ease-out;
 }
 
 @keyframes sectionFadeIn {

@@ -40,6 +40,23 @@ section {
 	background: transparent;
 }
 
+#Home {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+#made-by {
+	margin-bottom: 0.3rem;
+	margin-right: 0.6rem;
+	color: $white;
+	font-size: 0.9rem;
+	div {
+		color: red;
+		display: inline;
+	}
+}
+
 // ##################################
 // ##  Home + sections animations  ##
 // ##################################

@@ -39,6 +39,23 @@ section {
   background: transparent;
 }
 
+#Home {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#made-by {
+  margin-bottom: 0.3rem;
+  margin-right: 0.6rem;
+  color: #dcdad7;
+  font-size: 0.9rem;
+}
+#made-by div {
+  color: red;
+  display: inline;
+}
+
 .section-active {
   -webkit-animation: sectionFadeIn 0.8s;
           animation: sectionFadeIn 0.8s;

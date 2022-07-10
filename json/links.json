@@ -233,5 +233,50 @@
     "category": "Browsers",
     "url": "https://spidermonkey.dev/",
     "name": "Mozilla’s JavaScript and WebAssembly Engine"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/",
+    "name": "What is the file `package.json`?"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://docs.npmjs.com/creating-a-package-json-file#creating-a-default-packagejson-file",
+    "name": "Creating a package.json file"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://www.npmjs.com/package/chalk",
+    "name": "Chalk - Terminal string styling done right"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://github.com/sindresorhus/awesome-nodejs#weird",
+    "name": "Sindre Sorhus' awesome Node.js link collection"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://nodejs.org/en/docs/",
+    "name": "Node.js documentation"
+  },
+  {
+    "category": "JavaScript",
+    "url": "https://olinations.medium.com/the-javascript-runtime-environment-d58fa2e60dd0",
+    "name": "The Javascript Runtime Environment"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://docs.npmjs.com/about-semantic-versioning",
+    "name": "About semantic versioning"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://blog.insiderattack.net/getting-the-best-out-of-npm-b73d4a8fbf29#.hehmw1xun",
+    "name": "Getting the best out of NPM!"
+  },
+  {
+    "category": "Node.js",
+    "url": "https://dev.to/saurabhdaware/but-what-the-hell-is-package-lock-json-b04",
+    "name": "But what the hell is package-lock.json?"
   }
 ]

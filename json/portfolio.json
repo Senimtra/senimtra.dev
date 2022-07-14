@@ -1,13 +1,23 @@
 [
   {
     "category": "Web Development",
+    "name": "senimtra.dev",
+    "url": "https://senimtra.dev",
+    "description": "My portfolio page 🚧👨‍🚀💅",
+    "mainTechs": ["HTML", "JavaScript", "SCSS"],
+    "otherTechs": ["JSON", "Bootstrap"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/senimtra.dev"
+  },
+  {
+    "category": "Web Development",
     "name": "Quadrant Patrol",
     "url": "https://quadrant-patrol.netlify.app/",
     "description": "JavaScript game rendered on HTML5 <canvas> 👾🔫🕹",
     "mainTechs": "JavaScript",
     "otherTechs": ["HTML", "CSS"],
     "image": "./images/dummy.png",
-    "Repository": "https://recipe-app0921.herokuapp.com/"
+    "repository": "https://recipe-app0921.herokuapp.com/"
   },
   {
     "category": "Web Development",
@@ -17,7 +27,7 @@
     "mainTechs": ["Handlebars", "Node.js", "MongoDB"],
     "otherTechs": ["HTML", "SCSS"],
     "image": "./images/dummy.png",
-    "Repository": "https://github.com/leavonoldenburg/recipe-application"
+    "repository": "https://github.com/leavonoldenburg/recipe-application"
   },
   {
     "category": "Web Development",
@@ -27,6 +37,86 @@
     "mainTechs": ["React", "Node.js", "MongoDB"],
     "otherTechs": ["HTML", "SCSS"],
     "image": "./images/dummy.png",
-    "Repository": "https://github.com/HungryOctopus/froggy"
+    "repository": "https://github.com/HungryOctopus/froggy"
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 5",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 6",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 7",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 8",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 9",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 10",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 11",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
+  },
+  {
+    "category": "Web Development",
+    "name": "Project 12",
+    "url": "",
+    "description": "",
+    "mainTechs": "",
+    "otherTechs": "",
+    "image": "./images/dummy.png",
+    "repository": ""
   }
 ]

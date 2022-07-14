@@ -1,8 +1,8 @@
 [
   {
     "category": "Web Development",
-    "url": "https://quadrant-patrol.netlify.app/",
     "name": "Quadrant Patrol",
+    "url": "https://quadrant-patrol.netlify.app/",
     "description": "JavaScript game rendered on HTML5 <canvas> 👾🔫🕹",
     "mainTechs": "JavaScript",
     "otherTechs": ["HTML", "CSS"],
@@ -11,8 +11,8 @@
   },
   {
     "category": "Web Development",
-    "url": "https://recipe-app0921.herokuapp.com/",
     "name": "Iron Cooking Will",
+    "url": "https://recipe-app0921.herokuapp.com/",
     "description": "API driven recipe website using Handlebars, Node.js, MongoDB, HTML & CSS 🥧🌮🌯",
     "mainTechs": ["Handlebars", "Node.js", "MongoDB"],
     "otherTechs": ["HTML", "SCSS"],
@@ -21,8 +21,8 @@
   },
   {
     "category": "Web Development",
-    "url": "https://realfrogger.netlify.app/",
     "name": "RealFrogger",
+    "url": "https://realfrogger.netlify.app/",
     "description": "App to prevent frog and toad roadkills using React, Node.js & MongoDB 🐸🚘🙋‍♀️",
     "mainTechs": ["React", "Node.js", "MongoDB"],
     "otherTechs": ["HTML", "SCSS"],

@@ -32,11 +32,11 @@ import projects from './../json/portfolio.json' assert { type: 'json' };
 const portfolioSectionElement = document.querySelector('#Portfolio').childNodes[1];
 
 // ### Get category list ###
-const projectCategories = [...new Set(projects.map(el => el.category))];
+const projectCategories = [...new Set(projects.map(el => el.categories[0]))];
 
 // ### Process link list ###
 projectCategories.forEach(el => {
-	const projectLinks = projects.filter(elem => el === elem.category);
+	const projectLinks = projects.filter(elem => el === elem.categories[0]);
 	portfolioSectionElement.innerHTML += `<h3>${el}</h3>`;
 	projectLinks.forEach(el => {
 		portfolioSectionElement.innerHTML += `<a href="${el.url}" target="_blank">${el.name}</a><br>`;

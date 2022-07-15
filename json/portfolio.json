@@ -1,122 +1,57 @@
 [
   {
-    "category": "Web Development",
+    "id": "",
+    "categories": ["Web Development", "personal"],
     "name": "senimtra.dev",
     "url": "https://senimtra.dev",
     "description": "My portfolio page 🚧👨‍🚀💅",
-    "mainTechs": ["HTML", "JavaScript", "SCSS"],
-    "otherTechs": ["JSON", "Bootstrap"],
+    "techMain": ["HTML", "JavaScript", "SCSS"],
+    "techOther": ["JSON", "Bootstrap"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/senimtra.dev"
   },
   {
-    "category": "Web Development",
-    "name": "Quadrant Patrol",
-    "url": "https://quadrant-patrol.netlify.app/",
-    "description": "JavaScript game rendered on HTML5 <canvas> 👾🔫🕹",
-    "mainTechs": "JavaScript",
-    "otherTechs": ["HTML", "CSS"],
-    "image": "./images/dummy.png",
-    "repository": "https://recipe-app0921.herokuapp.com/"
-  },
-  {
-    "category": "Web Development",
-    "name": "Iron Cooking Will",
-    "url": "https://recipe-app0921.herokuapp.com/",
-    "description": "API driven recipe website using Handlebars, Node.js, MongoDB, HTML & CSS 🥧🌮🌯",
-    "mainTechs": ["Handlebars", "Node.js", "MongoDB"],
-    "otherTechs": ["HTML", "SCSS"],
-    "image": "./images/dummy.png",
-    "repository": "https://github.com/leavonoldenburg/recipe-application"
-  },
-  {
-    "category": "Web Development",
+    "id": "",
+    "categories": ["Web Development", "Ironhack"],
     "name": "RealFrogger",
     "url": "https://realfrogger.netlify.app/",
     "description": "App to prevent frog and toad roadkills using React, Node.js & MongoDB 🐸🚘🙋‍♀️",
-    "mainTechs": ["React", "Node.js", "MongoDB"],
-    "otherTechs": ["HTML", "SCSS"],
+    "techMain": ["React", "Node.js", "MongoDB"],
+    "techOther": ["HTML", "SCSS"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/HungryOctopus/froggy"
   },
   {
-    "category": "Web Development",
-    "name": "Project 5",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
+    "id": "",
+    "categories": ["Web Development", "Ironhack"],
+    "name": "Iron Cooking Will",
+    "url": "https://recipe-app0921.herokuapp.com/",
+    "description": "API driven recipe website using Handlebars, Node.js, MongoDB, HTML & CSS 🥧🌮🌯",
+    "techMain": ["Handlebars", "Node.js", "MongoDB"],
+    "techOther": ["HTML", "SCSS"],
     "image": "./images/dummy.png",
-    "repository": ""
+    "repository": "https://github.com/leavonoldenburg/recipe-application"
   },
   {
-    "category": "Web Development",
-    "name": "Project 6",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
+    "id": "",
+    "categories": ["Web Development", "Ironhack"],
+    "name": "Quadrant Patrol",
+    "url": "https://quadrant-patrol.netlify.app/",
+    "description": "JavaScript game rendered on HTML5 <canvas> 👾🔫🕹",
+    "techMain": "JavaScript",
+    "techOther": ["HTML", "CSS"],
     "image": "./images/dummy.png",
-    "repository": ""
+    "repository": "https://recipe-app0921.herokuapp.com/"
   },
   {
-    "category": "Web Development",
-    "name": "Project 7",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
+    "id": 1,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 01",
+    "url": "https://codereview01.netlify.app/",
+    "description": "24h challenge - build your first static website from a template 🐣🏗️🤹‍♂️",
+    "techMain": ["HTML", "CSS"],
+    "techOther": "",
     "image": "./images/dummy.png",
-    "repository": ""
-  },
-  {
-    "category": "Web Development",
-    "name": "Project 8",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
-    "image": "./images/dummy.png",
-    "repository": ""
-  },
-  {
-    "category": "Web Development",
-    "name": "Project 9",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
-    "image": "./images/dummy.png",
-    "repository": ""
-  },
-  {
-    "category": "Web Development",
-    "name": "Project 10",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
-    "image": "./images/dummy.png",
-    "repository": ""
-  },
-  {
-    "category": "Web Development",
-    "name": "Project 11",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
-    "image": "./images/dummy.png",
-    "repository": ""
-  },
-  {
-    "category": "Web Development",
-    "name": "Project 12",
-    "url": "",
-    "description": "",
-    "mainTechs": "",
-    "otherTechs": "",
-    "image": "./images/dummy.png",
-    "repository": ""
+    "repository": "https://github.com/Senimtra/CF-CodeReview-01"
   }
 ]

@@ -5,8 +5,7 @@
     "name": "senimtra.dev",
     "url": "https://senimtra.dev",
     "description": "My portfolio page 🚧👨‍🚀💅",
-    "techMain": ["HTML", "JavaScript", "SCSS"],
-    "techOther": ["JSON", "Bootstrap"],
+    "techStack": ["HTML", "JavaScript", "SCSS", "JSON", "Bootstrap"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/senimtra.dev"
   },
@@ -14,10 +13,9 @@
     "id": "",
     "categories": ["Web Development", "Ironhack"],
     "name": "RealFrogger",
-    "url": "https://realfrogger.netlify.app/",
+    "url": "https://realfrogger.netlify.app",
     "description": "App to prevent frog and toad roadkills using React, Node.js & MongoDB 🐸🚘🙋‍♀️",
-    "techMain": ["React", "Node.js", "MongoDB"],
-    "techOther": ["HTML", "SCSS"],
+    "techStack": ["React", "Node.js", "MongoDB", "HTML", "SCSS", "Bootstrap"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/HungryOctopus/froggy"
   },
@@ -25,10 +23,9 @@
     "id": "",
     "categories": ["Web Development", "Ironhack"],
     "name": "Iron Cooking Will",
-    "url": "https://recipe-app0921.herokuapp.com/",
+    "url": "https://recipe-app0921.herokuapp.com",
     "description": "API driven recipe website using Handlebars, Node.js, MongoDB, HTML & CSS 🥧🌮🌯",
-    "techMain": ["Handlebars", "Node.js", "MongoDB"],
-    "techOther": ["HTML", "SCSS"],
+    "techStack": ["Handlebars", "Node.js", "MongoDB", "HTML", "SCSS", "Bootstrap"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/leavonoldenburg/recipe-application"
   },
@@ -36,22 +33,30 @@
     "id": "",
     "categories": ["Web Development", "Ironhack"],
     "name": "Quadrant Patrol",
-    "url": "https://quadrant-patrol.netlify.app/",
+    "url": "https://quadrant-patrol.netlify.app",
     "description": "JavaScript game rendered on HTML5 <canvas> 👾🔫🕹",
-    "techMain": "JavaScript",
-    "techOther": ["HTML", "CSS"],
+    "techStack": ["JavaScript", "HTML", "CSS"],
     "image": "./images/dummy.png",
-    "repository": "https://recipe-app0921.herokuapp.com/"
+    "repository": "https://recipe-app0921.herokuapp.com"
   },
   {
     "id": 1,
     "categories": ["Web Development", "CodeFactory"],
     "name": "CodeReview 01",
-    "url": "https://codereview01.netlify.app/",
+    "url": "https://codereview01.netlify.app",
     "description": "24h challenge - build your first static website from a template 🐣🏗️🤹‍♂️",
-    "techMain": ["HTML", "CSS"],
-    "techOther": "",
+    "techStack": ["HTML", "CSS"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-01"
+  },
+  {
+    "id": 2,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 02",
+    "url": "https://codereview02.netlify.app",
+    "description": "24h challenge - build your first responsive website from a template 👷‍♂️📐💻",
+    "techStack": ["HTML", "SCSS"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-02"
   }
 ]

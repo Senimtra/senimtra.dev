@@ -68,5 +68,15 @@
     "techStack": ["HTML", "SCSS", "JavaScript", "Bootstrap"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-03"
+  },
+  {
+    "id": 4,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 04",
+    "url": "https://codereview04.netlify.app",
+    "description": "24h challenge - build a movie website from scratch, including user likes and movie sorting 🍿⭐📃",
+    "techStack": ["HTML", "SCSS", "JavaScript", "Bootstrap", "JSON"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-04"
   }
 ]

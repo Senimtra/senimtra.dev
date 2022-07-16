@@ -88,5 +88,15 @@
     "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-05"
+  },
+  {
+    "id": 6,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 06",
+    "url": "https://codereview06.netlify.app",
+    "description": "24h challenge - build a travel blog website from scratch, including a shopping cart solution 🍁✍️🛒",
+    "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap", "Angular"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-06"
   }
 ]

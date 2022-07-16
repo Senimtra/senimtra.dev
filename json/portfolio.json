@@ -78,5 +78,15 @@
     "techStack": ["HTML", "SCSS", "JavaScript", "Bootstrap", "JSON"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-04"
+  },
+  {
+    "id": 5,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 05",
+    "url": "https://codereview05.netlify.app",
+    "description": "24h challenge - build a city blog website from scratch using extended javascript classes 🏙️💃🖼️",
+    "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-05"
   }
 ]

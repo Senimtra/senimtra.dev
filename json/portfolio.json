@@ -98,5 +98,15 @@
     "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap", "Angular"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-06"
+  },
+  {
+    "id": 7,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 07",
+    "url": "https://codereview07.netlify.app",
+    "description": "4 day group project - create a photography website from scratch 📸🖼️👪",
+    "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap", "Angular"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-07"
   }
 ]

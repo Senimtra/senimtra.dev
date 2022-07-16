@@ -58,5 +58,15 @@
     "techStack": ["HTML", "SCSS"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-02"
+  },
+  {
+    "id": 3,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 03",
+    "url": "https://codereview03.netlify.app",
+    "description": "24h challenge - build a restaurant website from scratch, including some scripted price calculations 🏪🍔🧮",
+    "techStack": ["HTML", "SCSS", "JavaScript", "Bootstrap"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-03"
   }
 ]

@@ -108,5 +108,15 @@
     "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap", "Angular"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-07"
+  },
+  {
+    "id": 8,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 08",
+    "url": "https://codereview08.netlify.app",
+    "description": "1 week project - build your first portfolio website from scratch 👨‍🏭📂🎇",
+    "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap", "Angular"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-08"
   }
 ]

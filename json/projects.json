@@ -118,5 +118,15 @@
     "techStack": ["HTML", "SCSS", "TypeScript", "Bootstrap", "Angular"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-08"
+  },
+  {
+    "id": 9,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 09",
+    "url": "https://codereview09.netlify.app",
+    "description": "24h challenge - create a SQL database in 4 steps for an e-commerce website and provide meaningful queries 💰🗃️❓",
+    "techStack": ["SQL", "Draw.io"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-09"
   }
 ]

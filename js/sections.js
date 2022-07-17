@@ -26,7 +26,7 @@ linkCategories.forEach(el => {
 // #########################################
 
 // ### Import projects from json-file ###
-import projects from './../json/portfolio.json' assert { type: 'json' };
+import projects from './../json/projects.json' assert { type: 'json' };
 
 // ### DOM link list element ###
 const portfolioSectionElement = document.querySelector('#Portfolio').childNodes[1];

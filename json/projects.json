@@ -128,5 +128,15 @@
     "techStack": ["SQL", "Draw.io"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-09"
+  },
+  {
+    "id": 10,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 10",
+    "url": "https://senimtra.dev/projects/codereview10/php/index.php",
+    "description": "24h challenge - create a library application/database and provide CRUD operations 📖🗃️🔍",
+    "techStack": ["HTML", "Bootstrap", "PHP", "SQL", "SCSS"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-10"
   }
 ]

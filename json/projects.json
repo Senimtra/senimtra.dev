@@ -138,5 +138,15 @@
     "techStack": ["HTML", "Bootstrap", "PHP", "SQL", "SCSS"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-10"
+  },
+  {
+    "id": 11,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 11",
+    "url": "https://senimtra.dev/projects/codereview11/php/index.php",
+    "description": "24h challenge - create a pet adoption website/database and provide CRUD operations + user/adm sessions 🐶🗃️🥰",
+    "techStack": ["HTML", "Bootstrap", "PHP", "SQL", "SCSS"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-11"
   }
 ]

@@ -148,5 +148,15 @@
     "techStack": ["HTML", "Bootstrap", "PHP", "SQL", "SCSS"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-11"
+  },
+  {
+    "id": 12,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 12",
+    "url": "https://senimtra.dev/projects/codereview12/index.php",
+    "description": "24h challenge - create a travel agency website/database and implement CRUD operations, google maps and API usage 🚢🗺️🔁",
+    "techStack": ["HTML", "Bootstrap", "PHP", "SQL", "SCSS", "API"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-12"
   }
 ]

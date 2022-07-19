@@ -158,5 +158,15 @@
     "techStack": ["HTML", "Bootstrap", "PHP", "SQL", "SCSS", "API"],
     "image": "./images/dummy.png",
     "repository": "https://github.com/Senimtra/CF-CodeReview-12"
+  },
+  {
+    "id": 13,
+    "categories": ["Web Development", "CodeFactory"],
+    "name": "CodeReview 13",
+    "url": "https://senimtra.dev/projects/codereview13/public_html",
+    "description": "24h challenge - create an event management website/database using the Symfony framework 🤹‍♂️🏈🎷",
+    "techStack": ["HTML", "Bootstrap", "PHP", "SQL", "SCSS", "Symfony"],
+    "image": "./images/dummy.png",
+    "repository": "https://github.com/Senimtra/CF-CodeReview-13"
   }
 ]

@@ -1,322 +1,347 @@
 [
-  {
-    "category": "Challenges",
-    "url": "https://www.codewars.com/",
-    "name": "Codewars"
-  },
-  {
-    "category": "Challenges",
-    "url": "https://adventofcode.com/",
-    "name": "Advent of Code"
-  },
-  {
-    "category": "Challenges",
-    "url": "https://sololearn.com",
-    "name": "Sololearn"
-  },
-  {
-    "category": "JavaScript",
-    "url": "https://blog.sentry.io/2018/10/18/4-reasons-why-your-source-maps-are-broken",
-    "name": "4 Reasons why your Source Maps are broken"
-  },
-  {
-    "category": "React",
-    "url": "https://robinvdvleuten.nl/blog/scroll-a-react-component-into-view/",
-    "name": "Scroll a React component into view"
-  },
-  {
-    "category": "CSS",
-    "url": "https://paulund.co.uk/css-animation-link-underline",
-    "name": "CSS animation link underline"
-  },
-  {
-    "category": "SQL",
-    "url": "https://www.youtube.com/watch?v=xICxEHhNM84",
-    "name": "SQL Zusätze in DDL - SQL 4"
-  },
-  {
-    "category": "SQL",
-    "url": "https://www.youtube.com/playlist?list=PL_pqkvxZ6ho1dn7jRkTfoYBXhw5c9jll0",
-    "name": "Youtube-playlist Datenbanken und SQL"
-  },
-  {
-    "category": "SQL",
-    "url": "https://devhints.io/mysql",
-    "name": "MySQL cheatsheet"
-  },
-  {
-    "category": "SQL",
-    "url": "https://www.datenbanken-verstehen.de/datenmodellierung/normalisierung/",
-    "name": "Normalisierung von Datenbanken"
-  },
-  {
-    "category": "SQL",
-    "url": "https://www.youtube.com/watch?v=a9W7OpS4LfI&list=PLyuRouwmQCjlXvBkTfGeDTq79r9_GoMt9",
-    "name": "Learning MySQL - Getting Started"
-  },
-  {
-    "category": "Databases",
-    "url": "https://www.youtube.com/watch?v=UI6lqHOVHic&t=3s",
-    "name": "UML class diagram tutorial"
-  },
-  {
-    "category": "Databases",
-    "url": "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y",
-    "name": "SQL vs NoSQL or MySQL vs MongoDB"
-  },
-  {
-    "category": "VS Code",
-    "url": "https://www.youtube.com/watch?v=AJBnww90aHs",
-    "name": "VS Code Extensions: mssql and vscode-database"
-  },
-  {
-    "category": "VS Code",
-    "url": "https://www.youtube.com/watch?v=jMO2sLJElzs",
-    "name": "How to connect Live Server with Local Server | PHP Live Server VS Code | Xampp"
-  },
-  {
-    "category": "Git/GitHub",
-    "url": "https://en.wikipedia.org/wiki/Distributed_version_control",
-    "name": "Distributed version control - Wikipedia"
-  },
-  {
-    "category": "Git/GitHub",
-    "url": "https://github.com/git/git",
-    "name": "Git source code mirror"
-  },
-  {
-    "category": "Git/GitHub",
-    "url": "https://octodex.github.com/",
-    "name": "Octodex"
-  },
-  {
-    "category": "Git/GitHub",
-    "url": "https://education.github.com/git-cheat-sheet-education.pdf",
-    "name": "Git cheat sheet"
-  },
-  {
-    "category": "Git/GitHub",
-    "url": "https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53",
-    "name": "Commit message guidelines"
-  },
-  {
-    "category": "Git/GitHub",
-    "url": "https://sparkbox.com/foundry/semantic_commit_messages",
-    "name": "Semantic commit messages"
-  },
-  {
-    "category": "Git/GitHub",
-    "url": "https://learngitbranching.js.org/",
-    "name": "Learn Git Branching"
-  },
-  {
-    "category": "Frameworks",
-    "url": "https://www.youtube.com/watch?v=DuB6UjEsY_Y&t=1s",
-    "name": "Rasmus Lerdorf: why most frameworks suck!"
-  },
-  {
-    "category": "Testing",
-    "url": "https://web.dev/measure/",
-    "name": "Measure page quality"
-  },
-  {
-    "category": "Cyber-Security",
-    "url": "https://www.youtube.com/watch?v=QyQuXmPq7as",
-    "name": "Ethical Hacking - White hat hacking complete course"
-  },
-  {
-    "category": "Profession",
-    "url": "https://www.ironhack.com/en/courses/top-reasons-why-being-a-freelancer-is-a-great-choice?utm_source=linkedin&utm_medium=social&utm_campaign=21-11_GLO_glo_GLO_clics_blog-post&utm_content=organic-social",
-    "name": "Top reasons why being a freelancer is a great choice"
-  },
-  {
-    "category": "Resources",
-    "url": "https://www.littlesnippets.net/",
-    "name": "Inspiring Menu/Buttons/Tiles CSS effects"
-  },
-  {
-    "category": "SVG",
-    "url": "https://haikei.app/",
-    "name": "Generate unique SVG design assets"
-  },
-  {
-    "category": "Angular",
-    "url": "https://hdtuto.com/article/how-to-use-sweetalert2-in-angular-10",
-    "name": "How to use Sweetalert2 in Angular 10?"
-  },
-  {
-    "category": "Profession",
-    "url": "https://www.wearedevelopers.com/",
-    "name": "Go-To Job Board"
-  },
-  {
-    "category": "Profession",
-    "url": "https://www.awwwards.com/",
-    "name": "The awards that recognize the talent and effort of the best web designers, developers and agencies in the world."
-  },
-  {
-    "category": "CSS",
-    "url": "https://browserstrangeness.bitbucket.io/css_hacks.html",
-    "name": "CSS quick-fixes for browser-specific bugs"
-  },
-  {
-    "category": "SVG",
-    "url": "https://getwaves.io/",
-    "name": "SVG wave generator"
-  },
-  {
-    "category": "JavaScript",
-    "url": "https://michalsnik.github.io/aos/",
-    "name": "Small library to animate elements on your page as you scroll"
-  },
-  {
-    "category": "Angular",
-    "url": "https://www.youtube.com/watch?v=Fdf5aTYRW0E&t=2s",
-    "name": "Angular crash course"
-  },
-  {
-    "category": "API",
-    "url": "https://openweathermap.org/",
-    "name": "OpenWeather free weather API"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://nodejs.org/en/",
-    "name": "Node.js - a JavaScript runtime"
-  },
-  {
-    "category": "Organization",
-    "url": "https://trello.com/home",
-    "name": "Visual tool for team projects, workflow or task tracking"
-  },
-  {
-    "category": "PHP",
-    "url": "https://www.php.net/docs.php",
-    "name": "PHP documentation"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://en.wikipedia.org/wiki/V8_(JavaScript_engine)",
-    "name": "V8 (JavaScript engine) - Wikipedia"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://www.infoq.com/interviews/node-ryan-dahl/",
-    "name": "Deep inside Node.js with Ryan Dahl"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://www.npmjs.com/",
-    "name": "Node.js package manager"
-  },
-  {
-    "category": "Programming",
-    "url": "https://www.quora.com/How-do-computers-understand-programming-languages-How-do-you-teach-a-computer-a-language",
-    "name": "How do computers understand programming languages?"
-  },
-  {
-    "category": "Browsers",
-    "url": "https://v8.dev/",
-    "name": "What is V8?"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://expressjs.com/",
-    "name": "Fast, unopinionated, minimalist web framework for Node.js"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://github.com/nvm-sh/nvm",
-    "name": "Node Version Manager"
-  },
-  {
-    "category": "Browsers",
-    "url": "https://spidermonkey.dev/",
-    "name": "Mozilla’s JavaScript and WebAssembly Engine"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/",
-    "name": "What is the file `package.json`?"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://docs.npmjs.com/creating-a-package-json-file#creating-a-default-packagejson-file",
-    "name": "Creating a package.json file"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://www.npmjs.com/package/chalk",
-    "name": "Chalk - Terminal string styling done right"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://github.com/sindresorhus/awesome-nodejs#weird",
-    "name": "Sindre Sorhus' awesome Node.js link collection"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://nodejs.org/en/docs/",
-    "name": "Node.js documentation"
-  },
-  {
-    "category": "JavaScript",
-    "url": "https://olinations.medium.com/the-javascript-runtime-environment-d58fa2e60dd0",
-    "name": "The Javascript Runtime Environment"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://docs.npmjs.com/about-semantic-versioning",
-    "name": "About semantic versioning"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://blog.insiderattack.net/getting-the-best-out-of-npm-b73d4a8fbf29#.hehmw1xun",
-    "name": "Getting the best out of NPM!"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://dev.to/saurabhdaware/but-what-the-hell-is-package-lock-json-b04",
-    "name": "But what the hell is package-lock.json?"
-  },
-  {
-    "category": "Browsers",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg",
-    "name": "Timeline of Web Browsers"
-  },
-  {
-    "category": "React",
-    "url": "https://overreacted.io/",
-    "name": "Dan Abramov's personal blog (the brain behind React)"
-  },
-  {
-    "category": "Infrastructure",
-    "url": "https://www.submarinecablemap.com/",
-    "name": "Submarine Cable Map"
-  },
-  {
-    "category": "Browsers",
-    "url": "https://developer.chrome.com/docs/devtools/network/reference/",
-    "name": "Chrome DevTools Network features reference"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
-    "name": "An overview of HTTP"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://www.cloudflare.com/learning/dns/what-is-dns/",
-    "name": "What is DNS? How DNS works"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/",
-    "name": "Anatomy of an HTTP Transaction"
-  },
-  {
-    "category": "Node.js",
-    "url": "https://www.techtarget.com/whatis/definition/IMAP-Internet-Message-Access-Protocol",
-    "name": "What is IMAP (Internet Message Access Protocol)?"
-  }
+	{
+		"category": "Python",
+		"url": "https://hackernoon.com/how-is-python-different-from-other-programming-languages-63311390f8dd",
+		"name": "How is Python different from other Programming Languages?"
+	},
+	{
+		"category": "Machine learning",
+		"url": "https://machinelearningmastery.com/gentle-introduction-bag-words-model/",
+		"name": "A Gentle Introduction to the Bag-of-Words Model"
+	},
+	{
+		"category": "Statistics",
+		"url": "https://greenteapress.com/thinkstats/thinkstats.pdf",
+		"name": "Think Stats: Probability and Statistics for Programmers"
+	},
+	{
+		"category": "Statistics",
+		"url": "https://saylordotorg.github.io/text_introductory-statistics/index.html",
+		"name": "Introductory Statistics"
+	},
+	{
+		"category": "Statistics",
+		"url": "https://medium.com/@noahxiao/do-you-have-a-trustworthy-gut-the-most-counterintuitive-probability-problems-7b76aff941cb",
+		"name": "The Most Counter-intuitive Probability Problems"
+	},
+	{
+		"category": "Challenges",
+		"url": "https://www.codewars.com/",
+		"name": "Codewars"
+	},
+	{
+		"category": "Challenges",
+		"url": "https://adventofcode.com/",
+		"name": "Advent of Code"
+	},
+	{
+		"category": "Challenges",
+		"url": "https://sololearn.com",
+		"name": "Sololearn"
+	},
+	{
+		"category": "JavaScript",
+		"url": "https://blog.sentry.io/2018/10/18/4-reasons-why-your-source-maps-are-broken",
+		"name": "4 Reasons why your Source Maps are broken"
+	},
+	{
+		"category": "React",
+		"url": "https://robinvdvleuten.nl/blog/scroll-a-react-component-into-view/",
+		"name": "Scroll a React component into view"
+	},
+	{
+		"category": "CSS",
+		"url": "https://paulund.co.uk/css-animation-link-underline",
+		"name": "CSS animation link underline"
+	},
+	{
+		"category": "SQL",
+		"url": "https://www.youtube.com/watch?v=xICxEHhNM84",
+		"name": "SQL Zusätze in DDL - SQL 4"
+	},
+	{
+		"category": "SQL",
+		"url": "https://www.youtube.com/playlist?list=PL_pqkvxZ6ho1dn7jRkTfoYBXhw5c9jll0",
+		"name": "Youtube-playlist Datenbanken und SQL"
+	},
+	{
+		"category": "SQL",
+		"url": "https://devhints.io/mysql",
+		"name": "MySQL cheatsheet"
+	},
+	{
+		"category": "SQL",
+		"url": "https://www.datenbanken-verstehen.de/datenmodellierung/normalisierung/",
+		"name": "Normalisierung von Datenbanken"
+	},
+	{
+		"category": "SQL",
+		"url": "https://www.youtube.com/watch?v=a9W7OpS4LfI&list=PLyuRouwmQCjlXvBkTfGeDTq79r9_GoMt9",
+		"name": "Learning MySQL - Getting Started"
+	},
+	{
+		"category": "Databases",
+		"url": "https://www.youtube.com/watch?v=UI6lqHOVHic&t=3s",
+		"name": "UML class diagram tutorial"
+	},
+	{
+		"category": "Databases",
+		"url": "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y",
+		"name": "SQL vs NoSQL or MySQL vs MongoDB"
+	},
+	{
+		"category": "VS Code",
+		"url": "https://www.youtube.com/watch?v=AJBnww90aHs",
+		"name": "VS Code Extensions: mssql and vscode-database"
+	},
+	{
+		"category": "VS Code",
+		"url": "https://www.youtube.com/watch?v=jMO2sLJElzs",
+		"name": "How to connect Live Server with Local Server | PHP Live Server VS Code | Xampp"
+	},
+	{
+		"category": "Git/GitHub",
+		"url": "https://en.wikipedia.org/wiki/Distributed_version_control",
+		"name": "Distributed version control - Wikipedia"
+	},
+	{
+		"category": "Git/GitHub",
+		"url": "https://github.com/git/git",
+		"name": "Git source code mirror"
+	},
+	{
+		"category": "Git/GitHub",
+		"url": "https://octodex.github.com/",
+		"name": "Octodex"
+	},
+	{
+		"category": "Git/GitHub",
+		"url": "https://education.github.com/git-cheat-sheet-education.pdf",
+		"name": "Git cheat sheet"
+	},
+	{
+		"category": "Git/GitHub",
+		"url": "https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53",
+		"name": "Commit message guidelines"
+	},
+	{
+		"category": "Git/GitHub",
+		"url": "https://sparkbox.com/foundry/semantic_commit_messages",
+		"name": "Semantic commit messages"
+	},
+	{
+		"category": "Git/GitHub",
+		"url": "https://learngitbranching.js.org/",
+		"name": "Learn Git Branching"
+	},
+	{
+		"category": "Frameworks",
+		"url": "https://www.youtube.com/watch?v=DuB6UjEsY_Y&t=1s",
+		"name": "Rasmus Lerdorf: why most frameworks suck!"
+	},
+	{
+		"category": "Testing",
+		"url": "https://web.dev/measure/",
+		"name": "Measure page quality"
+	},
+	{
+		"category": "Cyber-Security",
+		"url": "https://www.youtube.com/watch?v=QyQuXmPq7as",
+		"name": "Ethical Hacking - White hat hacking complete course"
+	},
+	{
+		"category": "Profession",
+		"url": "https://www.ironhack.com/en/courses/top-reasons-why-being-a-freelancer-is-a-great-choice?utm_source=linkedin&utm_medium=social&utm_campaign=21-11_GLO_glo_GLO_clics_blog-post&utm_content=organic-social",
+		"name": "Top reasons why being a freelancer is a great choice"
+	},
+	{
+		"category": "Resources",
+		"url": "https://www.littlesnippets.net/",
+		"name": "Inspiring Menu/Buttons/Tiles CSS effects"
+	},
+	{
+		"category": "SVG",
+		"url": "https://haikei.app/",
+		"name": "Generate unique SVG design assets"
+	},
+	{
+		"category": "Angular",
+		"url": "https://hdtuto.com/article/how-to-use-sweetalert2-in-angular-10",
+		"name": "How to use Sweetalert2 in Angular 10?"
+	},
+	{
+		"category": "Profession",
+		"url": "https://www.wearedevelopers.com/",
+		"name": "Go-To Job Board"
+	},
+	{
+		"category": "Profession",
+		"url": "https://www.awwwards.com/",
+		"name": "The awards that recognize the talent and effort of the best web designers, developers and agencies in the world."
+	},
+	{
+		"category": "CSS",
+		"url": "https://browserstrangeness.bitbucket.io/css_hacks.html",
+		"name": "CSS quick-fixes for browser-specific bugs"
+	},
+	{
+		"category": "SVG",
+		"url": "https://getwaves.io/",
+		"name": "SVG wave generator"
+	},
+	{
+		"category": "JavaScript",
+		"url": "https://michalsnik.github.io/aos/",
+		"name": "Small library to animate elements on your page as you scroll"
+	},
+	{
+		"category": "Angular",
+		"url": "https://www.youtube.com/watch?v=Fdf5aTYRW0E&t=2s",
+		"name": "Angular crash course"
+	},
+	{
+		"category": "API",
+		"url": "https://openweathermap.org/",
+		"name": "OpenWeather free weather API"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://nodejs.org/en/",
+		"name": "Node.js - a JavaScript runtime"
+	},
+	{
+		"category": "Organization",
+		"url": "https://trello.com/home",
+		"name": "Visual tool for team projects, workflow or task tracking"
+	},
+	{
+		"category": "PHP",
+		"url": "https://www.php.net/docs.php",
+		"name": "PHP documentation"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://en.wikipedia.org/wiki/V8_(JavaScript_engine)",
+		"name": "V8 (JavaScript engine) - Wikipedia"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://www.infoq.com/interviews/node-ryan-dahl/",
+		"name": "Deep inside Node.js with Ryan Dahl"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://www.npmjs.com/",
+		"name": "Node.js package manager"
+	},
+	{
+		"category": "Programming",
+		"url": "https://www.quora.com/How-do-computers-understand-programming-languages-How-do-you-teach-a-computer-a-language",
+		"name": "How do computers understand programming languages?"
+	},
+	{
+		"category": "Browsers",
+		"url": "https://v8.dev/",
+		"name": "What is V8?"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://expressjs.com/",
+		"name": "Fast, unopinionated, minimalist web framework for Node.js"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://github.com/nvm-sh/nvm",
+		"name": "Node Version Manager"
+	},
+	{
+		"category": "Browsers",
+		"url": "https://spidermonkey.dev/",
+		"name": "Mozilla’s JavaScript and WebAssembly Engine"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/",
+		"name": "What is the file `package.json`?"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://docs.npmjs.com/creating-a-package-json-file#creating-a-default-packagejson-file",
+		"name": "Creating a package.json file"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://www.npmjs.com/package/chalk",
+		"name": "Chalk - Terminal string styling done right"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://github.com/sindresorhus/awesome-nodejs#weird",
+		"name": "Sindre Sorhus' awesome Node.js link collection"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://nodejs.org/en/docs/",
+		"name": "Node.js documentation"
+	},
+	{
+		"category": "JavaScript",
+		"url": "https://olinations.medium.com/the-javascript-runtime-environment-d58fa2e60dd0",
+		"name": "The Javascript Runtime Environment"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://docs.npmjs.com/about-semantic-versioning",
+		"name": "About semantic versioning"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://blog.insiderattack.net/getting-the-best-out-of-npm-b73d4a8fbf29#.hehmw1xun",
+		"name": "Getting the best out of NPM!"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://dev.to/saurabhdaware/but-what-the-hell-is-package-lock-json-b04",
+		"name": "But what the hell is package-lock.json?"
+	},
+	{
+		"category": "Browsers",
+		"url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg",
+		"name": "Timeline of Web Browsers"
+	},
+	{
+		"category": "React",
+		"url": "https://overreacted.io/",
+		"name": "Dan Abramov's personal blog (the brain behind React)"
+	},
+	{
+		"category": "Infrastructure",
+		"url": "https://www.submarinecablemap.com/",
+		"name": "Submarine Cable Map"
+	},
+	{
+		"category": "Browsers",
+		"url": "https://developer.chrome.com/docs/devtools/network/reference/",
+		"name": "Chrome DevTools Network features reference"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+		"name": "An overview of HTTP"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://www.cloudflare.com/learning/dns/what-is-dns/",
+		"name": "What is DNS? How DNS works"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/",
+		"name": "Anatomy of an HTTP Transaction"
+	},
+	{
+		"category": "Node.js",
+		"url": "https://www.techtarget.com/whatis/definition/IMAP-Internet-Message-Access-Protocol",
+		"name": "What is IMAP (Internet Message Access Protocol)?"
+	}
 ]
